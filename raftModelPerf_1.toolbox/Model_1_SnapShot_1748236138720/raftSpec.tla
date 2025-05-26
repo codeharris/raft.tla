@@ -9,6 +9,14 @@
 
 EXTENDS raftActionsSolution
 
+
+
+
+
+
+
+
+
 \* Receive a message.
 Receive(m) ==
     LET i == m.mdest
@@ -33,6 +41,7 @@ Next ==
 \*           \/ \E i \in Server : Restart(i)
            \/ \E i,j \in Server : i /= j /\ RequestVote(i, j)
            \/ \E i \in Server : BecomeLeader(i)
+\*           \/ \E i \in Server, v \in Value : state[i] = Leader /\ ClientRequest(i, v)
            \/ \E i \in Server, v \in Value : state[i] = Leader /\ SwitchClientRequest(i, v)
            \/ \E i \in Server : AdvanceCommitIndex(i)
            \/ \E i,j \in Server : i /= j /\ AppendEntries(i, j)
@@ -43,13 +52,28 @@ Next ==
 \*           \/ \E m \in {msg \in ValidMessage(messages) : 
 \*                    msg.mtype \in {RequestVoteRequest}} : DropMessage(m)
 
-                  
+\*MyNext == 
+\*           \/ \E i \in Server : Timeout(i)
+\*           \/ \E i \in Server : Restart(i)
+\*           \/ \E i,j \in Server : i /= j /\ RequestVote(i, j)
+\*           \/ \E i \in Server : BecomeLeader(i)
+\*           \/ \E i \in Server, v \in Value : state[i] = Leader /\ ClientRequest(i, v)
+\*           \/ \E i \in Server : AdvanceCommitIndex(i)
+\*           \/ \E i,j \in Server : i /= j /\ AppendEntries(i, j)
+\*           \/ \E m \in {msg \in ValidMessage(messages) : \* to visualize possible messages
+\*                    msg.mtype \in {AppendEntriesRequest, AppendEntriesResponse}} : Receive(m)
+\*           \/ \E m \in {msg \in ValidMessage(messages) : 
+\*                    msg.mtype \in {AppendEntriesRequest}} : DuplicateMessage(m)
+\*           \/ \E m \in {msg \in ValidMessage(messages) : 
+\*                    msg.mtype \in {RequestVoteRequest}} : DropMessage(m)
+
+
 MyNext == 
            \/ \E v \in Value, s \in Servers: state[s] = Leader /\ SwitchClientRequest(s, v)
            
-           \/ \E v \in DOMAIN switchBuffer, s \in Servers: SwitchReplicateClientRequest(s, v) 
+           \/ \E v \in DOMAIN switchBuffer, s \in Servers: SwitchClientRequestReplicate(s, v) 
            
-           \/ \E s \in Servers, v \in DOMAIN switchBuffer: state[s] = Leader  /\ LeaderAppendRequest(s, v)
+           \/ \E s \in Servers, v \in DOMAIN switchBuffer: state[s] = Leader  /\ LeaderIngressHovercRaftRequest(s, v)
                  
            \/ \E i \in Servers: AdvanceCommitIndex(i)
            
@@ -57,8 +81,7 @@ MyNext ==
            
            \/ \E m \in {msg \in ValidMessage(messages) : \* to visualize possible messages
                     msg.mtype \in {AppendEntriesRequest, AppendEntriesResponse}} : Receive(m)
-           
-          
+
 
 \* The specification must start with the initial state and transition according
 \* to Next.

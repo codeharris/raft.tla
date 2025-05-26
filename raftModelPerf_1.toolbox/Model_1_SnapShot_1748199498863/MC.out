@@ -1,0 +1,3106 @@
+@!@!@STARTMSG 2262:0 @!@!@
+TLC2 Version 2.19 of 08 August 2024 (rev: 5a47802)
+@!@!@ENDMSG 2262 @!@!@
+@!@!@STARTMSG 2187:0 @!@!@
+Running breadth-first search Model-Checking with fp 20 and seed -449909655133543091 with 8 workers on 16 cores with 1159MB heap and 2603MB offheap memory [pid: 13153] (Linux 6.11.0-26-generic amd64, AdoptOpenJDK 14.0.1 x86_64, OffHeapDiskFPSet, DiskStateQueue).
+@!@!@ENDMSG 2187 @!@!@
+@!@!@STARTMSG 2220:0 @!@!@
+Starting SANY...
+@!@!@ENDMSG 2220 @!@!@
+Parsing file /home/crafters/Documents/SecondSemister/HPCAlgorithmDesign/ProjectDir/raft.tla/raftModelPerf_1.toolbox/Model_1/MC.tla
+Parsing file /home/crafters/Documents/SecondSemister/HPCAlgorithmDesign/ProjectDir/raft.tla/raftModelPerf_1.toolbox/Model_1/raftModelPerf.tla
+Parsing file /home/crafters/Documents/SecondSemister/HPCAlgorithmDesign/toolbox/plugins/org.lamport.tlatools_1.0.0.202408081326/tla2sany/StandardModules/TLC.tla
+Parsing file /home/crafters/Documents/SecondSemister/HPCAlgorithmDesign/ProjectDir/raft.tla/raftModelPerf_1.toolbox/Model_1/raftSpec.tla
+Parsing file /home/crafters/Documents/SecondSemister/HPCAlgorithmDesign/ProjectDir/raft.tla/raftModelPerf_1.toolbox/Model_1/raftActionsSolution.tla
+Parsing file /home/crafters/Documents/SecondSemister/HPCAlgorithmDesign/ProjectDir/raft.tla/raftModelPerf_1.toolbox/Model_1/raftInit.tla
+Parsing file /home/crafters/Documents/SecondSemister/HPCAlgorithmDesign/ProjectDir/raft.tla/raftModelPerf_1.toolbox/Model_1/raftHelpers.tla
+Parsing file /home/crafters/Documents/SecondSemister/HPCAlgorithmDesign/ProjectDir/raft.tla/raftModelPerf_1.toolbox/Model_1/raftVariables.tla
+Parsing file /home/crafters/Documents/SecondSemister/HPCAlgorithmDesign/ProjectDir/raft.tla/raftModelPerf_1.toolbox/Model_1/raftConstants.tla
+Parsing file /home/crafters/Documents/SecondSemister/HPCAlgorithmDesign/toolbox/plugins/org.lamport.tlatools_1.0.0.202408081326/tla2sany/StandardModules/Naturals.tla
+Parsing file /home/crafters/Documents/SecondSemister/HPCAlgorithmDesign/toolbox/plugins/org.lamport.tlatools_1.0.0.202408081326/tla2sany/StandardModules/FiniteSets.tla
+Parsing file /home/crafters/Documents/SecondSemister/HPCAlgorithmDesign/toolbox/plugins/org.lamport.tlatools_1.0.0.202408081326/tla2sany/StandardModules/Sequences.tla
+Semantic processing of module Naturals
+Semantic processing of module Sequences
+Semantic processing of module FiniteSets
+Semantic processing of module TLC
+Semantic processing of module raftConstants
+Semantic processing of module raftVariables
+Semantic processing of module raftHelpers
+Semantic processing of module raftInit
+Semantic processing of module raftActionsSolution
+Semantic processing of module raftSpec
+Semantic processing of module raftModelPerf
+Semantic processing of module MC
+@!@!@STARTMSG 2219:0 @!@!@
+SANY finished.
+@!@!@ENDMSG 2219 @!@!@
+@!@!@STARTMSG 2185:0 @!@!@
+Starting... (2025-05-25 20:49:51)
+@!@!@ENDMSG 2185 @!@!@
+@!@!@STARTMSG 2189:0 @!@!@
+Computing initial states...
+@!@!@ENDMSG 2189 @!@!@
+@!@!@STARTMSG 2190:0 @!@!@
+Finished computing initial states: 1 distinct state generated at 2025-05-25 20:49:52.
+@!@!@ENDMSG 2190 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(22) at 2025-05-25 20:49:55: 213,790 states generated (213,790 s/min), 39,192 distinct states found (39,192 ds/min), 10,658 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(37) at 2025-05-25 20:50:55: 7,342,139 states generated (7,128,349 s/min), 1,266,382 distinct states found (1,227,190 ds/min), 179,113 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(42) at 2025-05-25 20:51:55: 14,343,865 states generated (7,001,726 s/min), 2,440,330 distinct states found (1,173,948 ds/min), 259,840 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(46) at 2025-05-25 20:52:55: 21,303,262 states generated (6,959,397 s/min), 3,601,749 distinct states found (1,161,419 ds/min), 320,822 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2201:0 @!@!@
+The coverage statistics at 2025-05-25 20:52:55
+@!@!@ENDMSG 2201 @!@!@
+@!@!@STARTMSG 2773:0 @!@!@
+<MyInit line 29, col 1 to line 29, col 6 of module raftInit>: 1:1
+@!@!@ENDMSG 2773 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 37, col 22 to line 37, col 23 of module raftInit: 1
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 32, col 15 to line 32, col 26 of module raftInit: 1
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 32, col 15 to line 32, col 23 of module raftInit: 1
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||line 30, col 22 to line 31, col 67 of module raftInit: 1
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||line 31, col 25 to line 31, col 67 of module raftInit: 28
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||line 31, col 44 to line 31, col 67 of module raftInit: 109
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||||line 31, col 44 to line 31, col 48 of module raftInit: 109
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||||line 31, col 53 to line 31, col 67 of module raftInit: 72
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||line 31, col 37 to line 31, col 40 of module raftInit: 28
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2775:0 @!@!@
+  ||||line 30, col 37 to line 30, col 52 of module raftInit: 1:1308
+@!@!@ENDMSG 2775 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 38, col 18 to line 38, col 30 of module raftInit: 1
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 38, col 18 to line 38, col 23 of module raftInit: 1
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 38, col 27 to line 38, col 30 of module raftInit: 1
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 38, col 28 to line 38, col 29 of module raftInit: 1
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||line 32, col 15 to line 32, col 26 of module raftInit: 1
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||line 32, col 15 to line 32, col 23 of module raftInit: 1
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||line 30, col 22 to line 31, col 67 of module raftInit: 1
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||||line 31, col 25 to line 31, col 67 of module raftInit: 28
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||||line 31, col 44 to line 31, col 67 of module raftInit: 109
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||||||line 31, col 44 to line 31, col 48 of module raftInit: 109
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||||||line 31, col 53 to line 31, col 67 of module raftInit: 72
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||||line 31, col 37 to line 31, col 40 of module raftInit: 28
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2775:0 @!@!@
+  ||||||line 30, col 37 to line 30, col 52 of module raftInit: 1:1308
+@!@!@ENDMSG 2775 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 39, col 8 to line 39, col 41 of module raftInit: 1
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 40, col 8 to line 40, col 41 of module raftInit: 1
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 41, col 8 to line 41, col 63 of module raftInit: 1
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 42, col 8 to line 42, col 36 of module raftInit: 1
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 43, col 8 to line 43, col 59 of module raftInit: 1
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 45, col 8 to line 45, col 34 of module raftInit: 1
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 46, col 8 to line 46, col 58 of module raftInit: 1
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 47, col 8 to line 50, col 36 of module raftInit: 1
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 51, col 8 to line 51, col 63 of module raftInit: 1
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 52, col 8 to line 52, col 88 of module raftInit: 1
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 53, col 8 to line 53, col 72 of module raftInit: 1
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 54, col 8 to line 54, col 74 of module raftInit: 1
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 55, col 8 to line 55, col 106 of module raftInit: 1
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 56, col 8 to line 56, col 48 of module raftInit: 1
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 57, col 8 to line 57, col 48 of module raftInit: 1
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 58, col 8 to line 58, col 80 of module raftInit: 1
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<MyNext line 71, col 1 to line 71, col 6 of module raftSpec (72 15 72 91)>: 7:6562147
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 72, col 46 to line 72, col 62 of module raftSpec: 26248699
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 72, col 46 to line 72, col 53 of module raftSpec: 19686541
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 72, col 57 to line 72, col 62 of module raftSpec: 19686546
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 129, col 8 to line 129, col 24 of module raftActionsSolution: 13124364
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 129, col 8 to line 129, col 15 of module raftActionsSolution: 6562183
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 129, col 8 to line 129, col 12 of module raftActionsSolution: 6562187
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 129, col 14 to line 129, col 14 of module raftActionsSolution: 6562188
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 129, col 19 to line 129, col 24 of module raftActionsSolution: 6562190
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 130, col 25 to line 130, col 41 of module raftActionsSolution: 32810963
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 130, col 25 to line 130, col 32 of module raftActionsSolution: 26248789
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 130, col 36 to line 130, col 41 of module raftActionsSolution: 26248792
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 130, col 17 to line 130, col 22 of module raftActionsSolution: 6562198
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 133, col 8 to line 133, col 31 of module raftActionsSolution: 6562198
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 133, col 8 to line 133, col 11 of module raftActionsSolution: 6562199
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 133, col 15 to line 133, col 31 of module raftActionsSolution: 6562201
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 139, col 15 to line 139, col 26 of module raftActionsSolution: 6562202
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 139, col 16 to line 139, col 26 of module raftActionsSolution: 6562203
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 137, col 27 to line 137, col 79 of module raftActionsSolution: 6562204
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||line 137, col 57 to line 137, col 79 of module raftActionsSolution: 9837298
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||line 137, col 57 to line 137, col 61 of module raftActionsSolution: 9837302
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||line 136, col 21 to line 136, col 68 of module raftActionsSolution: 9837303
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||||line 136, col 22 to line 136, col 39 of module raftActionsSolution: 9837242
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||||line 136, col 42 to line 136, col 52 of module raftActionsSolution: 9837242
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||||line 136, col 55 to line 136, col 67 of module raftActionsSolution: 9837242
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||line 137, col 65 to line 137, col 79 of module raftActionsSolution: 9837320
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||line 137, col 36 to line 137, col 54 of module raftActionsSolution: 6562222
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 140, col 13 to line 141, col 59 of module raftActionsSolution: 6009
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 142, col 17 to line 142, col 48 of module raftActionsSolution: 6556164
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 143, col 8 to line 143, col 166 of module raftActionsSolution: 6562174
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 72, col 87 to line 72, col 87 of module raftSpec: 6562233
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 72, col 90 to line 72, col 90 of module raftSpec: 6562235
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 72, col 24 to line 72, col 28 of module raftSpec: 3281119
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2775:0 @!@!@
+  |line 16, col 1 to line 16, col 8 of module MC: 3281121:32811194
+@!@!@ENDMSG 2775 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 16, col 2 to line 16, col 3 of module MC: 3281122
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 16, col 6 to line 16, col 7 of module MC: 3281122
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 72, col 37 to line 72, col 43 of module raftSpec: 3281122
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<MyNext line 71, col 1 to line 71, col 6 of module raftSpec (74 15 74 93)>: 94:1933305
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 147, col 38 to line 147, col 42 of module raftActionsSolution: 41252733
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 147, col 38 to line 147, col 38 of module raftActionsSolution: 39319425
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 147, col 42 to line 147, col 42 of module raftActionsSolution: 39319425
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 147, col 17 to line 147, col 35 of module raftActionsSolution: 19668723
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 148, col 8 to line 148, col 99 of module raftActionsSolution: 21602035
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 148, col 10 to line 148, col 98 of module raftActionsSolution: 19668738
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 148, col 44 to line 148, col 98 of module raftActionsSolution: 27373899
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||line 148, col 44 to line 148, col 48 of module raftActionsSolution: 27373908
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||line 148, col 52 to line 148, col 98 of module raftActionsSolution: 27373915
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||line 148, col 54 to line 148, col 74 of module raftActionsSolution: 27373924
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||line 148, col 54 to line 148, col 68 of module raftActionsSolution: 27373927
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||||line 148, col 54 to line 148, col 65 of module raftActionsSolution: 27373927
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||||line 148, col 67 to line 148, col 67 of module raftActionsSolution: 27373927
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||line 148, col 77 to line 148, col 96 of module raftActionsSolution: 27373931
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 148, col 23 to line 148, col 41 of module raftActionsSolution: 19668777
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 149, col 8 to line 149, col 135 of module raftActionsSolution: 1933317
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 150, col 8 to line 150, col 109 of module raftActionsSolution: 1933317
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 150, col 28 to line 150, col 109 of module raftActionsSolution: 1933318
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 150, col 29 to line 150, col 44 of module raftActionsSolution: 1933319
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 150, col 53 to line 150, col 107 of module raftActionsSolution: 1933308
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 151, col 8 to line 151, col 134 of module raftActionsSolution: 1933308
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 74, col 89 to line 74, col 89 of module raftSpec: 19668801
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 74, col 92 to line 74, col 92 of module raftSpec: 19668806
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 74, col 24 to line 74, col 42 of module raftSpec: 3281141
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 74, col 51 to line 74, col 57 of module raftSpec: 3281141
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<MyNext line 71, col 1 to line 71, col 6 of module raftSpec (76 15 76 117)>: 118:22454
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 76, col 60 to line 76, col 76 of module raftSpec: 19691304
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 76, col 60 to line 76, col 67 of module raftSpec: 19668861
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 76, col 60 to line 76, col 64 of module raftSpec: 19668861
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 76, col 66 to line 76, col 66 of module raftSpec: 19668867
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 76, col 71 to line 76, col 76 of module raftSpec: 19668867
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 157, col 8 to line 157, col 24 of module raftActionsSolution: 6578745
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 157, col 8 to line 157, col 15 of module raftActionsSolution: 6556291
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 157, col 19 to line 157, col 24 of module raftActionsSolution: 6556293
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 158, col 38 to line 158, col 42 of module raftActionsSolution: 13129033
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 158, col 38 to line 158, col 38 of module raftActionsSolution: 13106579
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 158, col 42 to line 158, col 42 of module raftActionsSolution: 13106583
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 158, col 17 to line 158, col 35 of module raftActionsSolution: 6556299
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 159, col 39 to line 159, col 43 of module raftActionsSolution: 67354
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 159, col 39 to line 159, col 39 of module raftActionsSolution: 44900
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 159, col 43 to line 159, col 43 of module raftActionsSolution: 44900
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 159, col 17 to line 159, col 35 of module raftActionsSolution: 6556301
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 160, col 8 to line 160, col 62 of module raftActionsSolution: 44908
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 160, col 10 to line 160, col 61 of module raftActionsSolution: 22454
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 160, col 35 to line 160, col 61 of module raftActionsSolution: 22382
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 160, col 19 to line 160, col 31 of module raftActionsSolution: 22454
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 170, col 9 to line 175, col 35 of module raftActionsSolution: 22454
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 176, col 8 to line 176, col 154 of module raftActionsSolution: 22454
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 76, col 113 to line 76, col 113 of module raftSpec: 6556309
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 76, col 116 to line 76, col 116 of module raftSpec: 6556310
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 76, col 24 to line 76, col 30 of module raftSpec: 3281161
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 76, col 39 to line 76, col 57 of module raftSpec: 3281162
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<MyNext line 71, col 1 to line 71, col 6 of module raftSpec (78 15 78 53)>: 399885:3281162
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 340, col 8 to line 340, col 24 of module raftActionsSolution: 13124672
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 340, col 8 to line 340, col 15 of module raftActionsSolution: 9843507
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 340, col 19 to line 340, col 24 of module raftActionsSolution: 9843511
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 359, col 14 to line 359, col 70 of module raftActionsSolution: 3281170
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 359, col 29 to line 359, col 70 of module raftActionsSolution: 3281171
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 359, col 30 to line 359, col 40 of module raftActionsSolution: 3281171
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 359, col 49 to line 359, col 69 of module raftActionsSolution: 3281166
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 359, col 56 to line 359, col 69 of module raftActionsSolution: 3281172
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||line 349, col 15 to line 354, col 32 of module raftActionsSolution: 3281172
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||line 349, col 18 to line 350, col 67 of module raftActionsSolution: 3281172
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||line 349, col 21 to line 349, col 38 of module raftActionsSolution: 3281172
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||||line 349, col 21 to line 349, col 32 of module raftActionsSolution: 3281173
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||||line 345, col 28 to line 346, col 56 of module raftActionsSolution: 3281173
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||||||line 346, col 33 to line 346, col 55 of module raftActionsSolution: 6510805
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||||||line 346, col 33 to line 346, col 44 of module raftActionsSolution: 6510806
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||||||||line 342, col 28 to line 343, col 67 of module raftActionsSolution: 6510806
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||||||||line 342, col 28 to line 342, col 30 of module raftActionsSolution: 6510808
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2775:0 @!@!@
+  |||||||||||line 342, col 37 to line 343, col 67 of module raftActionsSolution: 6510810:13753480
+@!@!@ENDMSG 2775 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||||||||||line 343, col 42 to line 343, col 66 of module raftActionsSolution: 19532430
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||||||||||line 342, col 44 to line 342, col 50 of module raftActionsSolution: 6510810
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||||||||line 346, col 39 to line 346, col 43 of module raftActionsSolution: 6510810
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||||||line 346, col 50 to line 346, col 55 of module raftActionsSolution: 6510811
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||||||line 345, col 39 to line 345, col 52 of module raftActionsSolution: 3281180
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||||line 349, col 37 to line 349, col 38 of module raftActionsSolution: 3281180
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||line 350, col 21 to line 350, col 67 of module raftActionsSolution: 3252551
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||||line 350, col 21 to line 350, col 50 of module raftActionsSolution: 3252552
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||||line 350, col 21 to line 350, col 45 of module raftActionsSolution: 3252552
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||||||line 350, col 21 to line 350, col 26 of module raftActionsSolution: 3252552
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||||||line 350, col 28 to line 350, col 44 of module raftActionsSolution: 3252553
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||||||line 40, col 11 to line 40, col 46 of module raftHelpers: 3252558
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||||||||line 40, col 28 to line 40, col 46 of module raftHelpers: 4982426
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||||||||line 40, col 41 to line 40, col 46 of module raftHelpers: 8442162
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||||||||line 40, col 37 to line 40, col 37 of module raftHelpers: 4982426
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||||||||line 40, col 24 to line 40, col 24 of module raftHelpers: 3252558
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||||||line 350, col 32 to line 350, col 43 of module raftActionsSolution: 3252559
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2775:0 @!@!@
+  ||||||||||line 345, col 28 to line 346, col 56 of module raftActionsSolution: 3252559:18407017
+@!@!@ENDMSG 2775 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||||||||line 346, col 33 to line 346, col 55 of module raftActionsSolution: 6473770
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||||||||||line 346, col 33 to line 346, col 44 of module raftActionsSolution: 6473770
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||||||||||line 342, col 28 to line 343, col 67 of module raftActionsSolution: 6473772
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||||||||||||line 342, col 28 to line 342, col 30 of module raftActionsSolution: 6473774
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2775:0 @!@!@
+  ||||||||||||||line 342, col 37 to line 343, col 67 of module raftActionsSolution: 6473774:13716470
+@!@!@ENDMSG 2775 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||||||||||||line 343, col 42 to line 343, col 66 of module raftActionsSolution: 19421322
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||||||||||||line 342, col 44 to line 342, col 50 of module raftActionsSolution: 6473774
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||||||||||line 346, col 39 to line 346, col 43 of module raftActionsSolution: 6473774
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||||||||||line 346, col 50 to line 346, col 55 of module raftActionsSolution: 6473774
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||||||||line 345, col 39 to line 345, col 52 of module raftActionsSolution: 3252561
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||||line 350, col 54 to line 350, col 67 of module raftActionsSolution: 3252562
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||line 352, col 19 to line 352, col 35 of module raftActionsSolution: 3252563
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||line 40, col 11 to line 40, col 46 of module raftHelpers: 3252563
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||||line 40, col 28 to line 40, col 46 of module raftHelpers: 4982435
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||||line 40, col 41 to line 40, col 46 of module raftHelpers: 8442181
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||||line 40, col 37 to line 40, col 37 of module raftHelpers: 4982439
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||||line 40, col 24 to line 40, col 24 of module raftHelpers: 3252566
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||line 352, col 23 to line 352, col 34 of module raftActionsSolution: 3252566
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2775:0 @!@!@
+  ||||||line 345, col 28 to line 346, col 56 of module raftActionsSolution: 3252567:18407063
+@!@!@ENDMSG 2775 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||||line 346, col 33 to line 346, col 55 of module raftActionsSolution: 6473789
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||||||line 346, col 33 to line 346, col 44 of module raftActionsSolution: 6473790
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||||||line 342, col 28 to line 343, col 67 of module raftActionsSolution: 6473790
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||||||||line 342, col 28 to line 342, col 30 of module raftActionsSolution: 6473790
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2775:0 @!@!@
+  ||||||||||line 342, col 37 to line 343, col 67 of module raftActionsSolution: 6473792:13716503
+@!@!@ENDMSG 2775 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||||||||line 343, col 42 to line 343, col 66 of module raftActionsSolution: 19421376
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||||||||line 342, col 44 to line 342, col 50 of module raftActionsSolution: 6473794
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||||||line 346, col 39 to line 346, col 43 of module raftActionsSolution: 6473794
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||||||line 346, col 50 to line 346, col 55 of module raftActionsSolution: 6473796
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||||line 345, col 39 to line 345, col 52 of module raftActionsSolution: 3252572
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||line 354, col 19 to line 354, col 32 of module raftActionsSolution: 28629
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 361, col 14 to line 365, col 47 of module raftActionsSolution: 3281200
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2775:0 @!@!@
+  |line 362, col 16 to line 365, col 47 of module raftActionsSolution: 3281202:6510856
+@!@!@ENDMSG 2775 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 367, col 8 to line 367, col 117 of module raftActionsSolution: 3281167
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 78, col 52 to line 78, col 52 of module raftSpec: 9843607
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 78, col 24 to line 78, col 30 of module raftSpec: 3281204
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<MyNext line 71, col 1 to line 71, col 6 of module raftSpec (80 15 80 64)>: 905149:4536443
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 80, col 35 to line 80, col 40 of module raftSpec: 34067336
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 80, col 35 to line 80, col 35 of module raftSpec: 29530881
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 80, col 40 to line 80, col 40 of module raftSpec: 29530885
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 183, col 8 to line 183, col 13 of module raftActionsSolution: 24223712
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 183, col 8 to line 183, col 8 of module raftActionsSolution: 19687263
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 183, col 13 to line 183, col 13 of module raftActionsSolution: 19687266
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 184, col 8 to line 184, col 24 of module raftActionsSolution: 24223732
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 184, col 8 to line 184, col 15 of module raftActionsSolution: 19687277
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 184, col 8 to line 184, col 12 of module raftActionsSolution: 19687283
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 184, col 14 to line 184, col 14 of module raftActionsSolution: 19687287
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 184, col 19 to line 184, col 24 of module raftActionsSolution: 19687287
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 185, col 8 to line 185, col 22 of module raftActionsSolution: 4536460
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 185, col 8 to line 185, col 18 of module raftActionsSolution: 6562431
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 186, col 8 to line 186, col 37 of module raftActionsSolution: 4536463
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 186, col 8 to line 186, col 22 of module raftActionsSolution: 6562271
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 186, col 27 to line 186, col 37 of module raftActionsSolution: 6562273
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 187, col 8 to line 187, col 41 of module raftActionsSolution: 4536466
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 187, col 8 to line 187, col 23 of module raftActionsSolution: 4536467
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 187, col 27 to line 187, col 41 of module raftActionsSolution: 4536467
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 26, col 12 to line 26, col 47 of module raftHelpers: 4536467
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 26, col 24 to line 26, col 47 of module raftHelpers: 4536470
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 13, col 5 to line 17, col 24 of module raftHelpers: 4536470
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||line 13, col 8 to line 13, col 24 of module raftHelpers: 4536470
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||line 13, col 8 to line 13, col 8 of module raftHelpers: 4536471
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||line 13, col 14 to line 13, col 24 of module raftHelpers: 4536471
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||line 14, col 9 to line 14, col 12 of module raftHelpers: 2931244
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||line 17, col 9 to line 17, col 24 of module raftHelpers: 1605227
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 26, col 39 to line 26, col 46 of module raftHelpers: 4536473
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 212, col 16 to line 212, col 22 of module raftActionsSolution: 4536475
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 196, col 23 to line 207, col 37 of module raftActionsSolution: 4536476
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 196, col 24 to line 196, col 62 of module raftActionsSolution: 4536451
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 197, col 36 to line 197, col 49 of module raftActionsSolution: 4536477
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||line 197, col 36 to line 197, col 46 of module raftActionsSolution: 4536477
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||line 197, col 48 to line 197, col 48 of module raftActionsSolution: 4536477
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 198, col 17 to line 198, col 47 of module raftActionsSolution: 4536452
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 199, col 36 to line 199, col 46 of module raftActionsSolution: 4536481
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||line 193, col 27 to line 195, col 32 of module raftActionsSolution: 4536481
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||line 193, col 30 to line 193, col 45 of module raftActionsSolution: 4536482
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||line 194, col 31 to line 194, col 55 of module raftActionsSolution: 3228794
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 200, col 17 to line 200, col 42 of module raftActionsSolution: 4536452
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 205, col 36 to line 205, col 68 of module raftActionsSolution: 4536496
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||line 38, col 11 to line 38, col 46 of module raftHelpers: 4536497
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||line 38, col 28 to line 38, col 46 of module raftHelpers: 4536497
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||line 38, col 41 to line 38, col 46 of module raftHelpers: 7428077
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||line 38, col 37 to line 38, col 37 of module raftHelpers: 4536497
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||line 38, col 24 to line 38, col 24 of module raftHelpers: 4536499
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2775:0 @!@!@
+  |||line 205, col 40 to line 205, col 67 of module raftActionsSolution: 4536499:16501078
+@!@!@ENDMSG 2775 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 206, col 17 to line 206, col 36 of module raftActionsSolution: 4536453
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 207, col 17 to line 207, col 36 of module raftActionsSolution: 4536453
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 213, col 11 to line 216, col 33 of module raftActionsSolution: 4536501
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 214, col 13 to line 216, col 33 of module raftActionsSolution: 4536501
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 214, col 16 to line 214, col 92 of module raftActionsSolution: 4536501
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 215, col 18 to line 215, col 72 of module raftActionsSolution: 2683724
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 216, col 18 to line 216, col 33 of module raftActionsSolution: 1852777
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 217, col 8 to line 217, col 111 of module raftActionsSolution: 4536453
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 80, col 60 to line 80, col 60 of module raftSpec: 19687443
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 80, col 63 to line 80, col 63 of module raftSpec: 19687443
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 80, col 26 to line 80, col 32 of module raftSpec: 3281241
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<MyNext line 71, col 1 to line 71, col 6 of module raftSpec (82 15 83 93)>: 2296779:4969074
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 54, col 8 to line 54, col 31 of module raftActionsSolution: 6109851
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 56, col 8 to line 56, col 60 of module raftActionsSolution: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 57, col 8 to line 57, col 61 of module raftActionsSolution: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 58, col 8 to line 58, col 56 of module raftActionsSolution: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 60, col 8 to line 60, col 86 of module raftActionsSolution: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 26, col 22 to line 26, col 22 of module raftSpec: 6109887
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 27, col 14 to line 27, col 41 of module raftSpec: 6109888
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 88, col 24 to line 88, col 61 of module raftActionsSolution: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 89, col 24 to line 89, col 41 of module raftActionsSolution: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 35, col 5 to line 35, col 72 of module raftHelpers: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 99, col 11 to line 99, col 99 of module raftActionsSolution: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 29, col 14 to line 29, col 42 of module raftSpec: 6109890
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 30, col 15 to line 30, col 53 of module raftHelpers: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 123, col 8 to line 123, col 88 of module raftActionsSolution: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 107, col 8 to line 108, col 57 of module raftActionsSolution: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 110, col 14 to line 111, col 59 of module raftActionsSolution: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 112, col 14 to line 113, col 59 of module raftActionsSolution: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 115, col 14 to line 115, col 49 of module raftActionsSolution: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 30, col 15 to line 30, col 53 of module raftHelpers: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 117, col 8 to line 117, col 83 of module raftActionsSolution: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 32, col 14 to line 32, col 43 of module raftSpec: 9772466
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 32, col 14 to line 32, col 20 of module raftSpec: 6109899
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 32, col 24 to line 32, col 43 of module raftSpec: 6109899
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 228, col 11 to line 228, col 35 of module raftActionsSolution: 3662568
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 228, col 11 to line 228, col 17 of module raftActionsSolution: 4803345
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 228, col 22 to line 228, col 35 of module raftActionsSolution: 4803346
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 230, col 20 to line 230, col 43 of module raftActionsSolution: 4803310
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 231, col 23 to line 231, col 46 of module raftActionsSolution: 4803348
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 232, col 23 to line 232, col 41 of module raftActionsSolution: 4803348
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 233, col 23 to line 233, col 33 of module raftActionsSolution: 4803349
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 233, col 29 to line 233, col 33 of module raftActionsSolution: 4803351
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 224, col 18 to line 227, col 68 of module raftActionsSolution: 4803351
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||line 224, col 21 to line 224, col 39 of module raftActionsSolution: 4803351
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||line 225, col 21 to line 227, col 68 of module raftActionsSolution: 3251731
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||line 225, col 24 to line 225, col 42 of module raftActionsSolution: 3251733
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||line 226, col 24 to line 226, col 53 of module raftActionsSolution: 3251733
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||line 227, col 24 to line 227, col 68 of module raftActionsSolution: 3251733
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||line 227, col 24 to line 227, col 37 of module raftActionsSolution: 3251733
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||line 227, col 41 to line 227, col 68 of module raftActionsSolution: 3251733
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||||line 227, col 41 to line 227, col 63 of module raftActionsSolution: 3251734
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||||line 227, col 41 to line 227, col 46 of module raftActionsSolution: 3251734
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||||line 227, col 48 to line 227, col 62 of module raftActionsSolution: 3251734
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||||||line 227, col 48 to line 227, col 48 of module raftActionsSolution: 3251734
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 35, col 5 to line 35, col 72 of module raftHelpers: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 241, col 17 to line 241, col 67 of module raftActionsSolution: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 243, col 17 to line 243, col 40 of module raftActionsSolution: 4803360
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 244, col 17 to line 244, col 36 of module raftActionsSolution: 4803360
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 245, col 17 to line 245, col 55 of module raftActionsSolution: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 246, col 17 to line 246, col 88 of module raftActionsSolution: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 248, col 17 to line 248, col 40 of module raftActionsSolution: 8465945
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 248, col 17 to line 248, col 23 of module raftActionsSolution: 4803362
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 248, col 27 to line 248, col 40 of module raftActionsSolution: 4803362
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 249, col 17 to line 249, col 35 of module raftActionsSolution: 8465949
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 249, col 17 to line 249, col 24 of module raftActionsSolution: 4803362
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 249, col 28 to line 249, col 35 of module raftActionsSolution: 4803362
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 224, col 21 to line 224, col 39 of module raftActionsSolution: 6029317
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 224, col 21 to line 224, col 35 of module raftActionsSolution: 4803362
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 225, col 24 to line 225, col 42 of module raftActionsSolution: 2436632
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 225, col 24 to line 225, col 38 of module raftActionsSolution: 4803362
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 226, col 24 to line 226, col 53 of module raftActionsSolution: 2436632
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 226, col 24 to line 226, col 38 of module raftActionsSolution: 3251737
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 226, col 43 to line 226, col 53 of module raftActionsSolution: 3251737
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 227, col 24 to line 227, col 68 of module raftActionsSolution: 5688369
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 227, col 24 to line 227, col 37 of module raftActionsSolution: 3251737
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 227, col 41 to line 227, col 68 of module raftActionsSolution: 3251737
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 253, col 30 to line 253, col 47 of module raftActionsSolution: 4803366
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 254, col 33 to line 254, col 51 of module raftActionsSolution: 7359658
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 254, col 33 to line 254, col 42 of module raftActionsSolution: 4803366
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 254, col 47 to line 254, col 51 of module raftActionsSolution: 4803366
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 255, col 33 to line 255, col 52 of module raftActionsSolution: 2556293
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 255, col 33 to line 255, col 43 of module raftActionsSolution: 4803367
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 255, col 48 to line 255, col 52 of module raftActionsSolution: 4803367
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 256, col 33 to line 256, col 71 of module raftActionsSolution: 5112588
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 256, col 33 to line 256, col 50 of module raftActionsSolution: 2556295
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 256, col 54 to line 256, col 71 of module raftActionsSolution: 2556295
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 260, col 27 to line 261, col 61 of module raftActionsSolution: 2556295
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 260, col 42 to line 261, col 61 of module raftActionsSolution: 2556296
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 260, col 43 to line 260, col 53 of module raftActionsSolution: 2556297
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 260, col 62 to line 261, col 60 of module raftActionsSolution: 2556261
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 261, col 47 to line 261, col 60 of module raftActionsSolution: 2556298
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 35, col 5 to line 35, col 72 of module raftHelpers: 2556297
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 35, col 17 to line 35, col 72 of module raftHelpers: 2556299
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 20, col 5 to line 23, col 12 of module raftHelpers: 2556299
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 35, col 41 to line 35, col 71 of module raftHelpers: 2556299
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||line 13, col 5 to line 17, col 24 of module raftHelpers: 2556299
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||line 13, col 8 to line 13, col 24 of module raftHelpers: 2556299
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||line 14, col 9 to line 14, col 12 of module raftHelpers: 1543183
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||line 17, col 9 to line 17, col 24 of module raftHelpers: 1013117
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||line 35, col 63 to line 35, col 70 of module raftHelpers: 2556300
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 268, col 33 to line 274, col 55 of module raftActionsSolution: 2556301
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 276, col 27 to line 276, col 73 of module raftActionsSolution: 2556261
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 279, col 27 to line 279, col 45 of module raftActionsSolution: 4803375
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 280, col 27 to line 280, col 46 of module raftActionsSolution: 4803316
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 281, col 27 to line 281, col 66 of module raftActionsSolution: 2556303
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 283, col 30 to line 283, col 62 of module raftActionsSolution: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 287, col 27 to line 287, col 91 of module raftActionsSolution: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 297, col 27 to line 297, col 45 of module raftActionsSolution: 5909674
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 297, col 27 to line 297, col 36 of module raftActionsSolution: 4803377
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 297, col 41 to line 297, col 45 of module raftActionsSolution: 4803378
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 298, col 57 to line 298, col 79 of module raftActionsSolution: 2840944
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 298, col 57 to line 298, col 57 of module raftActionsSolution: 1734647
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 298, col 61 to line 298, col 79 of module raftActionsSolution: 1734647
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 298, col 36 to line 298, col 54 of module raftActionsSolution: 4803379
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 299, col 27 to line 299, col 55 of module raftActionsSolution: 2212596
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 299, col 27 to line 299, col 37 of module raftActionsSolution: 1106298
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 299, col 41 to line 299, col 55 of module raftActionsSolution: 1106298
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 302, col 33 to line 302, col 80 of module raftActionsSolution: 1106298
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 302, col 40 to line 302, col 80 of module raftActionsSolution: 1106298
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 302, col 41 to line 302, col 43 of module raftActionsSolution: 1106298
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 302, col 52 to line 302, col 79 of module raftActionsSolution: 1106280
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 302, col 59 to line 302, col 79 of module raftActionsSolution: 1106298
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||line 302, col 66 to line 302, col 71 of module raftActionsSolution: 1106298
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||line 302, col 74 to line 302, col 78 of module raftActionsSolution: 1106298
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||line 301, col 40 to line 301, col 60 of module raftActionsSolution: 1106298
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||line 301, col 40 to line 301, col 51 of module raftActionsSolution: 1106298
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||line 301, col 53 to line 301, col 59 of module raftActionsSolution: 1106298
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||||line 300, col 42 to line 300, col 166 of module raftActionsSolution: 1106298
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||||line 300, col 77 to line 300, col 166 of module raftActionsSolution: 1659095
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||||||line 300, col 77 to line 300, col 118 of module raftActionsSolution: 1659095
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||||||line 300, col 123 to line 300, col 166 of module raftActionsSolution: 1659095
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||||||line 300, col 123 to line 300, col 144 of module raftActionsSolution: 1659095
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||||||line 300, col 148 to line 300, col 166 of module raftActionsSolution: 1659096
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||||line 300, col 56 to line 300, col 74 of module raftActionsSolution: 1106299
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 303, col 33 to line 303, col 110 of module raftActionsSolution: 1106299
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 303, col 53 to line 303, col 110 of module raftActionsSolution: 1106299
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 304, col 27 to line 304, col 73 of module raftActionsSolution: 1106279
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 305, col 11 to line 305, col 124 of module raftActionsSolution: 3662541
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 33, col 41 to line 33, col 41 of module raftSpec: 4803388
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 33, col 44 to line 33, col 44 of module raftSpec: 2556312
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 34, col 14 to line 34, col 44 of module raftSpec: 7416544
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 34, col 14 to line 34, col 20 of module raftSpec: 6109966
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 34, col 24 to line 34, col 44 of module raftSpec: 6109966
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 121, col 8 to line 121, col 31 of module raftActionsSolution: 1306549
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 30, col 15 to line 30, col 53 of module raftHelpers: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 123, col 8 to line 123, col 88 of module raftActionsSolution: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 35, col 35 to line 35, col 35 of module raftSpec: 1306579
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 311, col 8 to line 311, col 31 of module raftActionsSolution: 2613158
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 311, col 8 to line 311, col 14 of module raftActionsSolution: 1306579
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 311, col 18 to line 311, col 31 of module raftActionsSolution: 1306579
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 312, col 14 to line 312, col 23 of module raftActionsSolution: 2613158
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 312, col 14 to line 312, col 14 of module raftActionsSolution: 1306579
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 319, col 20 to line 319, col 80 of module raftActionsSolution: 1306579
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 319, col 34 to line 319, col 80 of module raftActionsSolution: 1306579
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 320, col 20 to line 320, col 76 of module raftActionsSolution: 1306579
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 320, col 34 to line 320, col 76 of module raftActionsSolution: 1306579
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 322, col 20 to line 327, col 42 of module raftActionsSolution: 1306579
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 323, col 22 to line 327, col 42 of module raftActionsSolution: 1306579
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 323, col 25 to line 325, col 64 of module raftActionsSolution: 1306579
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 326, col 27 to line 326, col 80 of module raftActionsSolution: 700307
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 327, col 27 to line 327, col 42 of module raftActionsSolution: 606272
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 328, col 14 to line 328, col 29 of module raftActionsSolution: 1306579
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 329, col 14 to line 330, col 61 of module raftActionsSolution: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 331, col 14 to line 331, col 55 of module raftActionsSolution: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 332, col 8 to line 332, col 17 of module raftActionsSolution: 1306549
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 333, col 8 to line 333, col 99 of module raftActionsSolution: 1306549
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 36, col 45 to line 36, col 45 of module raftSpec: 1306579
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 36, col 48 to line 36, col 48 of module raftSpec: 1306579
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 83, col 92 to line 83, col 92 of module raftSpec: 6109982
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2775:0 @!@!@
+  line 82, col 24 to line 83, col 80 of module raftSpec: 3281314:9391296
+@!@!@ENDMSG 2775 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 83, col 21 to line 83, col 79 of module raftSpec: 6109984
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 82, col 33 to line 82, col 54 of module raftSpec: 3281315
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2775:0 @!@!@
+  ||line 45, col 5 to line 45, col 43 of module raftHelpers: 3281315:9391301
+@!@!@ENDMSG 2775 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||line 45, col 31 to line 45, col 41 of module raftHelpers: 23281514
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||line 45, col 13 to line 45, col 27 of module raftHelpers: 3281316
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 82, col 46 to line 82, col 53 of module raftSpec: 3281131
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2774:0 @!@!@
+<LeaderCommitted line 44, col 1 to line 44, col 15 of module raftModelPerf>
+@!@!@ENDMSG 2774 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 45, col 5 to line 45, col 41 of module raftModelPerf: 3602152
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 45, col 23 to line 45, col 41 of module raftModelPerf: 3602152
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 45, col 23 to line 45, col 36 of module raftModelPerf: 3602152
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 45, col 14 to line 45, col 19 of module raftModelPerf: 3602153
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2774:0 @!@!@
+<MoreThanOneLeaderInv line 94, col 1 to line 94, col 20 of module raftSpec>
+@!@!@ENDMSG 2774 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 95, col 5 to line 99, col 16 of module raftSpec: 3602156
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 96, col 9 to line 99, col 16 of module raftSpec: 57634512
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 96, col 10 to line 98, col 29 of module raftSpec: 57634512
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||line 96, col 13 to line 96, col 43 of module raftSpec: 57634512
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||line 97, col 13 to line 97, col 29 of module raftSpec: 57634525
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||line 98, col 13 to line 98, col 29 of module raftSpec: 14408632
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 99, col 12 to line 99, col 16 of module raftSpec: 3602159
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 95, col 16 to line 95, col 21 of module raftSpec: 3602160
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2774:0 @!@!@
+<LogInv line 120, col 1 to line 120, col 6 of module raftSpec>
+@!@!@ENDMSG 2774 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 121, col 5 to line 123, col 51 of module raftSpec: 3602160
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 122, col 9 to line 123, col 51 of module raftSpec: 32419440
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 122, col 12 to line 122, col 51 of module raftSpec: 32419445
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||line 62, col 5 to line 63, col 48 of module raftHelpers: 32419453
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||line 62, col 8 to line 62, col 29 of module raftHelpers: 32419457
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||line 63, col 8 to line 63, col 48 of module raftHelpers: 25334169
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||line 63, col 32 to line 63, col 48 of module raftHelpers: 12816940
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||line 63, col 17 to line 63, col 28 of module raftHelpers: 25334169
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||line 122, col 26 to line 122, col 37 of module raftSpec: 32419459
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||line 67, col 5 to line 69, col 40 of module raftHelpers: 32419467
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||line 67, col 8 to line 67, col 25 of module raftHelpers: 32419467
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||line 68, col 10 to line 68, col 14 of module raftHelpers: 14409231
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||line 69, col 10 to line 69, col 40 of module raftHelpers: 18010240
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||line 122, col 36 to line 122, col 36 of module raftSpec: 32419481
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||line 122, col 39 to line 122, col 50 of module raftSpec: 32419491
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||line 67, col 5 to line 69, col 40 of module raftHelpers: 32419500
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||line 67, col 8 to line 67, col 25 of module raftHelpers: 32419507
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||line 68, col 10 to line 68, col 14 of module raftHelpers: 14409243
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||line 69, col 10 to line 69, col 40 of module raftHelpers: 18010269
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||line 122, col 49 to line 122, col 49 of module raftSpec: 32419513
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 123, col 12 to line 123, col 51 of module raftSpec: 7085299
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||line 62, col 5 to line 63, col 48 of module raftHelpers: 7085300
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||line 62, col 8 to line 62, col 29 of module raftHelpers: 7085302
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||line 63, col 8 to line 63, col 48 of module raftHelpers: 7085302
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||line 63, col 32 to line 63, col 48 of module raftHelpers: 1237374
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||line 63, col 17 to line 63, col 28 of module raftHelpers: 7085307
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||line 123, col 26 to line 123, col 37 of module raftSpec: 7085307
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||line 67, col 5 to line 69, col 40 of module raftHelpers: 7085307
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||line 67, col 8 to line 67, col 25 of module raftHelpers: 7085310
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||line 68, col 10 to line 68, col 14 of module raftHelpers: 5847934
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||line 69, col 10 to line 69, col 40 of module raftHelpers: 1237377
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||line 123, col 36 to line 123, col 36 of module raftSpec: 7085312
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||line 123, col 39 to line 123, col 50 of module raftSpec: 7085312
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 121, col 17 to line 121, col 23 of module raftSpec: 3602174
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2774:0 @!@!@
+<LeaderCompletenessInv line 112, col 1 to line 112, col 21 of module raftSpec>
+@!@!@ENDMSG 2774 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 113, col 5 to line 116, col 72 of module raftSpec: 3602178
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 114, col 9 to line 116, col 72 of module raftSpec: 10806535
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 114, col 9 to line 114, col 25 of module raftSpec: 10806537
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 115, col 9 to line 116, col 72 of module raftSpec: 3602180
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||line 115, col 28 to line 116, col 72 of module raftSpec: 10806540
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||line 115, col 28 to line 115, col 33 of module raftSpec: 10806540
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||line 116, col 13 to line 116, col 72 of module raftSpec: 7204360
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||line 62, col 5 to line 63, col 48 of module raftHelpers: 7204360
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||||line 62, col 8 to line 62, col 29 of module raftHelpers: 7204360
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||||line 63, col 8 to line 63, col 48 of module raftHelpers: 7204360
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||||line 63, col 32 to line 63, col 48 of module raftHelpers: 2778003
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||||line 63, col 17 to line 63, col 28 of module raftHelpers: 7204361
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||line 116, col 27 to line 116, col 64 of module raftSpec: 7204362
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||||line 50, col 5 to line 59, col 14 of module raftHelpers: 7204362
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||||line 50, col 8 to line 50, col 71 of module raftHelpers: 7204363
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||||||line 50, col 8 to line 50, col 23 of module raftHelpers: 7204364
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||||||line 50, col 28 to line 50, col 71 of module raftHelpers: 6439956
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||||line 54, col 11 to line 56, col 70 of module raftHelpers: 6439956
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||||||line 55, col 13 to line 56, col 70 of module raftHelpers: 10318246
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||||||line 55, col 16 to line 55, col 34 of module raftHelpers: 10318248
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||||||line 56, col 16 to line 56, col 70 of module raftHelpers: 10318248
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||||||||line 56, col 41 to line 56, col 70 of module raftHelpers: 18074828
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||||||||line 56, col 25 to line 56, col 37 of module raftHelpers: 10318250
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||||||line 54, col 24 to line 54, col 36 of module raftHelpers: 6439960
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||||line 57, col 10 to line 57, col 61 of module raftHelpers: 6439961
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||||||line 57, col 17 to line 57, col 22 of module raftHelpers: 6439962
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||||||line 57, col 28 to line 57, col 60 of module raftHelpers: 6439964
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||||||line 42, col 14 to line 42, col 35 of module raftHelpers: 6439965
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||||||||line 42, col 17 to line 42, col 21 of module raftHelpers: 6439966
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||||||||line 42, col 17 to line 42, col 17 of module raftHelpers: 6439966
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||||||||line 42, col 21 to line 42, col 21 of module raftHelpers: 6439966
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||||||||line 42, col 35 to line 42, col 35 of module raftHelpers: 6439966
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||||||line 57, col 46 to line 57, col 59 of module raftHelpers: 6439967
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||||line 59, col 10 to line 59, col 14 of module raftHelpers: 764408
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||||line 116, col 47 to line 116, col 47 of module raftSpec: 7204378
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||||line 116, col 50 to line 116, col 63 of module raftSpec: 6439971
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||line 116, col 66 to line 116, col 71 of module raftSpec: 7204380
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||line 115, col 18 to line 115, col 24 of module raftSpec: 3602191
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 113, col 14 to line 113, col 20 of module raftSpec: 3602191
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2774:0 @!@!@
+<LogMatchingInv line 103, col 1 to line 103, col 14 of module raftSpec>
+@!@!@ENDMSG 2774 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 104, col 5 to line 107, col 51 of module raftSpec: 3602192
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 104, col 27 to line 107, col 51 of module raftSpec: 32419736
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 104, col 27 to line 104, col 32 of module raftSpec: 32419746
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 105, col 9 to line 107, col 51 of module raftSpec: 21613164
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||line 106, col 13 to line 107, col 51 of module raftSpec: 28288300
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||line 105, col 18 to line 105, col 49 of module raftSpec: 21613164
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||line 105, col 21 to line 105, col 49 of module raftSpec: 21613167
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||line 42, col 14 to line 42, col 35 of module raftHelpers: 21613170
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||||line 42, col 17 to line 42, col 21 of module raftHelpers: 21613170
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||||line 42, col 28 to line 42, col 28 of module raftHelpers: 5423097
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||||line 42, col 35 to line 42, col 35 of module raftHelpers: 16190077
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||line 105, col 25 to line 105, col 35 of module raftSpec: 21613176
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||line 105, col 38 to line 105, col 48 of module raftSpec: 21613176
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 104, col 17 to line 104, col 23 of module raftSpec: 3602197
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2202:0 @!@!@
+End of statistics.
+@!@!@ENDMSG 2202 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(49) at 2025-05-25 20:53:55: 28,257,360 states generated (6,954,098 s/min), 4,749,260 distinct states found (1,147,511 ds/min), 371,169 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(52) at 2025-05-25 20:54:55: 35,216,336 states generated (6,958,976 s/min), 5,906,319 distinct states found (1,157,059 ds/min), 416,828 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(55) at 2025-05-25 20:55:55: 42,212,505 states generated (6,996,169 s/min), 7,059,553 distinct states found (1,153,234 ds/min), 458,429 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(57) at 2025-05-25 20:56:55: 49,133,385 states generated (6,920,880 s/min), 8,209,595 distinct states found (1,150,042 ds/min), 495,216 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2201:0 @!@!@
+The coverage statistics at 2025-05-25 20:56:55
+@!@!@ENDMSG 2201 @!@!@
+@!@!@STARTMSG 2773:0 @!@!@
+<MyInit line 29, col 1 to line 29, col 6 of module raftInit>: 1:1
+@!@!@ENDMSG 2773 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 37, col 22 to line 37, col 23 of module raftInit: 1
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 32, col 15 to line 32, col 26 of module raftInit: 1
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 32, col 15 to line 32, col 23 of module raftInit: 1
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||line 30, col 22 to line 31, col 67 of module raftInit: 1
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||line 31, col 25 to line 31, col 67 of module raftInit: 28
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||line 31, col 44 to line 31, col 67 of module raftInit: 109
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||||line 31, col 44 to line 31, col 48 of module raftInit: 109
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||||line 31, col 53 to line 31, col 67 of module raftInit: 72
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||line 31, col 37 to line 31, col 40 of module raftInit: 28
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2775:0 @!@!@
+  ||||line 30, col 37 to line 30, col 52 of module raftInit: 1:1308
+@!@!@ENDMSG 2775 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 38, col 18 to line 38, col 30 of module raftInit: 1
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 38, col 18 to line 38, col 23 of module raftInit: 1
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 38, col 27 to line 38, col 30 of module raftInit: 1
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 38, col 28 to line 38, col 29 of module raftInit: 1
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||line 32, col 15 to line 32, col 26 of module raftInit: 1
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||line 32, col 15 to line 32, col 23 of module raftInit: 1
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||line 30, col 22 to line 31, col 67 of module raftInit: 1
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||||line 31, col 25 to line 31, col 67 of module raftInit: 28
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||||line 31, col 44 to line 31, col 67 of module raftInit: 109
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||||||line 31, col 44 to line 31, col 48 of module raftInit: 109
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||||||line 31, col 53 to line 31, col 67 of module raftInit: 72
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||||line 31, col 37 to line 31, col 40 of module raftInit: 28
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2775:0 @!@!@
+  ||||||line 30, col 37 to line 30, col 52 of module raftInit: 1:1308
+@!@!@ENDMSG 2775 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 39, col 8 to line 39, col 41 of module raftInit: 1
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 40, col 8 to line 40, col 41 of module raftInit: 1
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 41, col 8 to line 41, col 63 of module raftInit: 1
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 42, col 8 to line 42, col 36 of module raftInit: 1
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 43, col 8 to line 43, col 59 of module raftInit: 1
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 45, col 8 to line 45, col 34 of module raftInit: 1
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 46, col 8 to line 46, col 58 of module raftInit: 1
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 47, col 8 to line 50, col 36 of module raftInit: 1
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 51, col 8 to line 51, col 63 of module raftInit: 1
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 52, col 8 to line 52, col 88 of module raftInit: 1
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 53, col 8 to line 53, col 72 of module raftInit: 1
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 54, col 8 to line 54, col 74 of module raftInit: 1
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 55, col 8 to line 55, col 106 of module raftInit: 1
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 56, col 8 to line 56, col 48 of module raftInit: 1
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 57, col 8 to line 57, col 48 of module raftInit: 1
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 58, col 8 to line 58, col 80 of module raftInit: 1
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<MyNext line 71, col 1 to line 71, col 6 of module raftSpec (72 15 72 91)>: 7:15428801
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 72, col 46 to line 72, col 62 of module raftSpec: 61715217
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 72, col 46 to line 72, col 53 of module raftSpec: 46286414
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 72, col 57 to line 72, col 62 of module raftSpec: 46286414
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 129, col 8 to line 129, col 24 of module raftActionsSolution: 30857612
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 129, col 8 to line 129, col 15 of module raftActionsSolution: 15428806
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 129, col 19 to line 129, col 24 of module raftActionsSolution: 15428806
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 130, col 25 to line 130, col 41 of module raftActionsSolution: 77144030
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 130, col 25 to line 130, col 32 of module raftActionsSolution: 61715225
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 130, col 36 to line 130, col 41 of module raftActionsSolution: 61715225
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 130, col 17 to line 130, col 22 of module raftActionsSolution: 15428807
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 133, col 8 to line 133, col 31 of module raftActionsSolution: 15428807
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 133, col 8 to line 133, col 11 of module raftActionsSolution: 15428809
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 133, col 15 to line 133, col 31 of module raftActionsSolution: 15428809
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 139, col 15 to line 139, col 26 of module raftActionsSolution: 15428809
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 139, col 16 to line 139, col 26 of module raftActionsSolution: 15428811
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 137, col 27 to line 137, col 79 of module raftActionsSolution: 15428811
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||line 137, col 57 to line 137, col 79 of module raftActionsSolution: 23135204
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||line 137, col 36 to line 137, col 54 of module raftActionsSolution: 15428812
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 140, col 13 to line 141, col 59 of module raftActionsSolution: 8011
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 142, col 17 to line 142, col 48 of module raftActionsSolution: 15420793
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 143, col 8 to line 143, col 166 of module raftActionsSolution: 15428804
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 72, col 87 to line 72, col 87 of module raftSpec: 15428816
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 72, col 90 to line 72, col 90 of module raftSpec: 15428817
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 72, col 24 to line 72, col 28 of module raftSpec: 7714409
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 72, col 37 to line 72, col 43 of module raftSpec: 7714409
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<MyNext line 71, col 1 to line 71, col 6 of module raftSpec (74 15 74 93)>: 95:4046241
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 147, col 38 to line 147, col 42 of module raftActionsSolution: 96547056
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 147, col 38 to line 147, col 38 of module raftActionsSolution: 92500815
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 147, col 42 to line 147, col 42 of module raftActionsSolution: 92500815
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 147, col 17 to line 147, col 35 of module raftActionsSolution: 46262421
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 148, col 8 to line 148, col 99 of module raftActionsSolution: 50308662
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 148, col 10 to line 148, col 98 of module raftActionsSolution: 46262422
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 148, col 44 to line 148, col 98 of module raftActionsSolution: 64975331
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 148, col 23 to line 148, col 41 of module raftActionsSolution: 46262424
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 149, col 8 to line 149, col 135 of module raftActionsSolution: 4046242
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 150, col 8 to line 150, col 109 of module raftActionsSolution: 4046242
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 151, col 8 to line 151, col 134 of module raftActionsSolution: 4046241
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 74, col 89 to line 74, col 89 of module raftSpec: 46262430
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 74, col 92 to line 74, col 92 of module raftSpec: 46262433
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 74, col 24 to line 74, col 42 of module raftSpec: 7714412
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 74, col 51 to line 74, col 57 of module raftSpec: 7714412
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<MyNext line 71, col 1 to line 71, col 6 of module raftSpec (76 15 76 117)>: 124:30583
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 76, col 60 to line 76, col 76 of module raftSpec: 46293044
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 76, col 60 to line 76, col 67 of module raftSpec: 46262469
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 76, col 71 to line 76, col 76 of module raftSpec: 46262469
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 157, col 8 to line 157, col 24 of module raftActionsSolution: 15451406
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 157, col 8 to line 157, col 15 of module raftActionsSolution: 15420823
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 157, col 19 to line 157, col 24 of module raftActionsSolution: 15420855
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 158, col 38 to line 158, col 42 of module raftActionsSolution: 30864285
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 158, col 38 to line 158, col 38 of module raftActionsSolution: 30833707
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 158, col 42 to line 158, col 42 of module raftActionsSolution: 30833709
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 158, col 17 to line 158, col 35 of module raftActionsSolution: 15420859
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 159, col 39 to line 159, col 43 of module raftActionsSolution: 91741
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 159, col 39 to line 159, col 39 of module raftActionsSolution: 61158
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 159, col 43 to line 159, col 43 of module raftActionsSolution: 61158
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 159, col 17 to line 159, col 35 of module raftActionsSolution: 15420859
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 160, col 8 to line 160, col 62 of module raftActionsSolution: 61166
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 160, col 10 to line 160, col 61 of module raftActionsSolution: 30583
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 160, col 35 to line 160, col 61 of module raftActionsSolution: 30511
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 160, col 19 to line 160, col 31 of module raftActionsSolution: 30583
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 170, col 9 to line 175, col 35 of module raftActionsSolution: 30583
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 176, col 8 to line 176, col 154 of module raftActionsSolution: 30583
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 76, col 113 to line 76, col 113 of module raftSpec: 15420861
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 76, col 116 to line 76, col 116 of module raftSpec: 15420861
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 76, col 24 to line 76, col 30 of module raftSpec: 7714437
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 76, col 39 to line 76, col 57 of module raftSpec: 7714437
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<MyNext line 71, col 1 to line 71, col 6 of module raftSpec (78 15 78 53)>: 914038:7714438
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 340, col 8 to line 340, col 24 of module raftActionsSolution: 30857761
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 340, col 8 to line 340, col 15 of module raftActionsSolution: 23143322
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 340, col 8 to line 340, col 12 of module raftActionsSolution: 23143322
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 340, col 14 to line 340, col 14 of module raftActionsSolution: 23143322
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 340, col 19 to line 340, col 24 of module raftActionsSolution: 23143324
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 359, col 14 to line 359, col 70 of module raftActionsSolution: 7714441
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 359, col 29 to line 359, col 70 of module raftActionsSolution: 7714443
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 359, col 30 to line 359, col 40 of module raftActionsSolution: 7714445
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 359, col 49 to line 359, col 69 of module raftActionsSolution: 7714440
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 359, col 56 to line 359, col 69 of module raftActionsSolution: 7714445
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||line 349, col 15 to line 354, col 32 of module raftActionsSolution: 7714445
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||line 349, col 18 to line 350, col 67 of module raftActionsSolution: 7714445
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||line 349, col 21 to line 349, col 38 of module raftActionsSolution: 7714445
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||||line 349, col 21 to line 349, col 32 of module raftActionsSolution: 7714445
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||||line 345, col 28 to line 346, col 56 of module raftActionsSolution: 7714445
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||||||line 346, col 33 to line 346, col 55 of module raftActionsSolution: 15359200
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||||||line 346, col 33 to line 346, col 44 of module raftActionsSolution: 15359200
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||||||||line 342, col 28 to line 343, col 67 of module raftActionsSolution: 15359200
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||||||||line 342, col 28 to line 342, col 30 of module raftActionsSolution: 15359200
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2775:0 @!@!@
+  |||||||||||line 342, col 37 to line 343, col 67 of module raftActionsSolution: 15359202:33371613
+@!@!@ENDMSG 2775 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||||||||||line 343, col 42 to line 343, col 66 of module raftActionsSolution: 46077606
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||||||||||line 342, col 44 to line 342, col 50 of module raftActionsSolution: 15359202
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||||||||line 346, col 39 to line 346, col 43 of module raftActionsSolution: 15359202
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||||||line 346, col 50 to line 346, col 55 of module raftActionsSolution: 15359204
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||||||line 345, col 39 to line 345, col 52 of module raftActionsSolution: 7714447
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||||line 349, col 37 to line 349, col 38 of module raftActionsSolution: 7714447
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||line 350, col 21 to line 350, col 67 of module raftActionsSolution: 7676611
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||||line 350, col 21 to line 350, col 50 of module raftActionsSolution: 7676611
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||||line 350, col 21 to line 350, col 45 of module raftActionsSolution: 7676611
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||||||line 350, col 21 to line 350, col 26 of module raftActionsSolution: 7676611
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||||||line 350, col 28 to line 350, col 44 of module raftActionsSolution: 7676611
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||||||line 40, col 11 to line 40, col 46 of module raftHelpers: 7676611
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||||||||line 40, col 28 to line 40, col 46 of module raftHelpers: 12133249
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||||||||line 40, col 41 to line 40, col 46 of module raftHelpers: 21046525
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||||||||line 40, col 37 to line 40, col 37 of module raftHelpers: 12133250
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||||||||line 40, col 24 to line 40, col 24 of module raftHelpers: 7676613
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||||||line 350, col 32 to line 350, col 43 of module raftActionsSolution: 7676613
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2775:0 @!@!@
+  ||||||||||line 345, col 28 to line 346, col 56 of module raftActionsSolution: 7676613:45313029
+@!@!@ENDMSG 2775 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||||||||line 346, col 33 to line 346, col 55 of module raftActionsSolution: 15310102
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||||||||||line 346, col 33 to line 346, col 44 of module raftActionsSolution: 15310102
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||||||||||line 342, col 28 to line 343, col 67 of module raftActionsSolution: 15310102
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||||||||||||line 342, col 28 to line 342, col 30 of module raftActionsSolution: 15310102
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2775:0 @!@!@
+  ||||||||||||||line 342, col 37 to line 343, col 67 of module raftActionsSolution: 15310146:33322592
+@!@!@ENDMSG 2775 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||||||||||||line 343, col 42 to line 343, col 66 of module raftActionsSolution: 45930469
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||||||||||||line 342, col 44 to line 342, col 50 of module raftActionsSolution: 15310158
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||||||||||line 346, col 39 to line 346, col 43 of module raftActionsSolution: 15310158
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||||||||||line 346, col 50 to line 346, col 55 of module raftActionsSolution: 15310158
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||||||||line 345, col 39 to line 345, col 52 of module raftActionsSolution: 7676641
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||||line 350, col 54 to line 350, col 67 of module raftActionsSolution: 7676643
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||line 352, col 19 to line 352, col 35 of module raftActionsSolution: 7676644
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||line 40, col 11 to line 40, col 46 of module raftHelpers: 7676644
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||||line 40, col 28 to line 40, col 46 of module raftHelpers: 12133287
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||||line 40, col 41 to line 40, col 46 of module raftHelpers: 21046573
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||||line 40, col 37 to line 40, col 37 of module raftHelpers: 12133287
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||||line 40, col 24 to line 40, col 24 of module raftHelpers: 7676644
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||line 352, col 23 to line 352, col 34 of module raftActionsSolution: 7676644
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2775:0 @!@!@
+  ||||||line 345, col 28 to line 346, col 56 of module raftActionsSolution: 7676644:45313147
+@!@!@ENDMSG 2775 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||||line 346, col 33 to line 346, col 55 of module raftActionsSolution: 15310164
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||||||line 346, col 33 to line 346, col 44 of module raftActionsSolution: 15310164
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||||||line 342, col 28 to line 343, col 67 of module raftActionsSolution: 15310164
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||||||||line 342, col 28 to line 342, col 30 of module raftActionsSolution: 15310164
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2775:0 @!@!@
+  ||||||||||line 342, col 37 to line 343, col 67 of module raftActionsSolution: 15310164:33322622
+@!@!@ENDMSG 2775 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||||||||line 343, col 42 to line 343, col 66 of module raftActionsSolution: 45930492
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||||||||line 342, col 44 to line 342, col 50 of module raftActionsSolution: 15310164
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||||||line 346, col 39 to line 346, col 43 of module raftActionsSolution: 15310165
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||||||line 346, col 50 to line 346, col 55 of module raftActionsSolution: 15310166
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||||line 345, col 39 to line 345, col 52 of module raftActionsSolution: 7676645
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||line 354, col 19 to line 354, col 32 of module raftActionsSolution: 37836
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 361, col 14 to line 365, col 47 of module raftActionsSolution: 7714480
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 367, col 8 to line 367, col 117 of module raftActionsSolution: 7714440
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 78, col 52 to line 78, col 52 of module raftSpec: 23143442
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 78, col 24 to line 78, col 30 of module raftSpec: 7714483
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<MyNext line 71, col 1 to line 71, col 6 of module raftSpec (80 15 80 64)>: 2049585:10133366
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 80, col 35 to line 80, col 40 of module raftSpec: 79563735
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 80, col 35 to line 80, col 35 of module raftSpec: 69430365
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 80, col 40 to line 80, col 40 of module raftSpec: 69430365
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 183, col 8 to line 183, col 13 of module raftActionsSolution: 56420283
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 183, col 8 to line 183, col 8 of module raftActionsSolution: 46286913
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 183, col 13 to line 183, col 13 of module raftActionsSolution: 46286913
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 184, col 8 to line 184, col 24 of module raftActionsSolution: 56420283
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 184, col 8 to line 184, col 15 of module raftActionsSolution: 46286916
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 184, col 19 to line 184, col 24 of module raftActionsSolution: 46286916
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 185, col 8 to line 185, col 22 of module raftActionsSolution: 10133371
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 185, col 8 to line 185, col 18 of module raftActionsSolution: 15428973
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 186, col 8 to line 186, col 37 of module raftActionsSolution: 10133371
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 186, col 8 to line 186, col 22 of module raftActionsSolution: 15428812
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 186, col 27 to line 186, col 37 of module raftActionsSolution: 15428812
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 187, col 8 to line 187, col 41 of module raftActionsSolution: 10133373
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 187, col 8 to line 187, col 23 of module raftActionsSolution: 10133374
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 187, col 27 to line 187, col 41 of module raftActionsSolution: 10133375
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 26, col 12 to line 26, col 47 of module raftHelpers: 10133373
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 26, col 24 to line 26, col 47 of module raftHelpers: 10133375
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 13, col 5 to line 17, col 24 of module raftHelpers: 10133375
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||line 13, col 8 to line 13, col 24 of module raftHelpers: 10133376
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||line 14, col 9 to line 14, col 12 of module raftHelpers: 6633850
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||line 17, col 9 to line 17, col 24 of module raftHelpers: 3499526
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 26, col 39 to line 26, col 46 of module raftHelpers: 10133376
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 212, col 16 to line 212, col 22 of module raftActionsSolution: 10133376
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 196, col 23 to line 207, col 37 of module raftActionsSolution: 10133377
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 196, col 24 to line 196, col 62 of module raftActionsSolution: 10133370
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 197, col 17 to line 197, col 49 of module raftActionsSolution: 10133370
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 198, col 17 to line 198, col 47 of module raftActionsSolution: 10133370
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 199, col 36 to line 199, col 46 of module raftActionsSolution: 10133378
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||line 193, col 27 to line 195, col 32 of module raftActionsSolution: 10133378
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||line 193, col 30 to line 193, col 45 of module raftActionsSolution: 10133378
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||line 194, col 31 to line 194, col 55 of module raftActionsSolution: 7473621
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 200, col 17 to line 200, col 42 of module raftActionsSolution: 10133370
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 205, col 36 to line 205, col 68 of module raftActionsSolution: 10133378
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||line 38, col 11 to line 38, col 46 of module raftHelpers: 10133378
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||line 38, col 28 to line 38, col 46 of module raftHelpers: 10133378
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||line 38, col 41 to line 38, col 46 of module raftHelpers: 16435412
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||line 38, col 37 to line 38, col 37 of module raftHelpers: 10133378
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||line 38, col 24 to line 38, col 24 of module raftHelpers: 10133379
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2775:0 @!@!@
+  |||line 205, col 40 to line 205, col 67 of module raftActionsSolution: 10133379:36702172
+@!@!@ENDMSG 2775 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 206, col 17 to line 206, col 36 of module raftActionsSolution: 10133370
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 207, col 17 to line 207, col 36 of module raftActionsSolution: 10133370
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 213, col 11 to line 216, col 33 of module raftActionsSolution: 10133379
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 214, col 13 to line 216, col 33 of module raftActionsSolution: 10133380
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 214, col 16 to line 214, col 92 of module raftActionsSolution: 10133380
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 215, col 18 to line 215, col 72 of module raftActionsSolution: 5839399
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 216, col 18 to line 216, col 33 of module raftActionsSolution: 4293981
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 217, col 8 to line 217, col 111 of module raftActionsSolution: 10133370
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 80, col 60 to line 80, col 60 of module raftSpec: 46286964
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 80, col 63 to line 80, col 63 of module raftSpec: 46286964
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 80, col 26 to line 80, col 32 of module raftSpec: 7714495
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<MyNext line 71, col 1 to line 71, col 6 of module raftSpec (82 15 83 93)>: 5245874:11780454
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 54, col 8 to line 54, col 31 of module raftActionsSolution: 14261430
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 56, col 8 to line 56, col 60 of module raftActionsSolution: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 57, col 8 to line 57, col 61 of module raftActionsSolution: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 58, col 8 to line 58, col 56 of module raftActionsSolution: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 60, col 8 to line 60, col 86 of module raftActionsSolution: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 26, col 22 to line 26, col 22 of module raftSpec: 14261448
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 27, col 14 to line 27, col 41 of module raftSpec: 14261449
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 88, col 24 to line 88, col 61 of module raftActionsSolution: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 89, col 24 to line 89, col 41 of module raftActionsSolution: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 35, col 5 to line 35, col 72 of module raftHelpers: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 99, col 11 to line 99, col 99 of module raftActionsSolution: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 29, col 14 to line 29, col 42 of module raftSpec: 14261452
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 30, col 15 to line 30, col 53 of module raftHelpers: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 123, col 8 to line 123, col 88 of module raftActionsSolution: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 107, col 8 to line 108, col 57 of module raftActionsSolution: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 110, col 14 to line 111, col 59 of module raftActionsSolution: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 112, col 14 to line 113, col 59 of module raftActionsSolution: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 115, col 14 to line 115, col 49 of module raftActionsSolution: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 30, col 15 to line 30, col 53 of module raftHelpers: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 117, col 8 to line 117, col 83 of module raftActionsSolution: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 32, col 14 to line 32, col 43 of module raftSpec: 22925829
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 32, col 14 to line 32, col 20 of module raftSpec: 14261453
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 32, col 24 to line 32, col 43 of module raftSpec: 14261454
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 228, col 11 to line 228, col 35 of module raftActionsSolution: 8664376
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 228, col 11 to line 228, col 17 of module raftActionsSolution: 11145367
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 228, col 22 to line 228, col 35 of module raftActionsSolution: 11145367
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 230, col 20 to line 230, col 43 of module raftActionsSolution: 11145347
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 231, col 23 to line 231, col 46 of module raftActionsSolution: 11145367
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 232, col 23 to line 232, col 41 of module raftActionsSolution: 11145367
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 233, col 23 to line 233, col 33 of module raftActionsSolution: 11145367
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 233, col 29 to line 233, col 33 of module raftActionsSolution: 11145367
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 224, col 18 to line 227, col 68 of module raftActionsSolution: 11145367
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||line 224, col 21 to line 224, col 39 of module raftActionsSolution: 11145367
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||line 225, col 21 to line 227, col 68 of module raftActionsSolution: 7724463
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 35, col 5 to line 35, col 72 of module raftHelpers: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 241, col 17 to line 241, col 67 of module raftActionsSolution: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 243, col 17 to line 243, col 40 of module raftActionsSolution: 11145367
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 244, col 17 to line 244, col 36 of module raftActionsSolution: 11145367
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 245, col 17 to line 245, col 55 of module raftActionsSolution: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 246, col 17 to line 246, col 88 of module raftActionsSolution: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 248, col 17 to line 248, col 40 of module raftActionsSolution: 19809745
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 248, col 17 to line 248, col 23 of module raftActionsSolution: 11145369
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 248, col 27 to line 248, col 40 of module raftActionsSolution: 11145370
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 249, col 17 to line 249, col 35 of module raftActionsSolution: 19809748
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 249, col 17 to line 249, col 24 of module raftActionsSolution: 11145371
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 249, col 28 to line 249, col 35 of module raftActionsSolution: 11145372
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 224, col 21 to line 224, col 39 of module raftActionsSolution: 13919631
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 224, col 21 to line 224, col 35 of module raftActionsSolution: 11145378
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 225, col 24 to line 225, col 42 of module raftActionsSolution: 5890126
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 225, col 24 to line 225, col 38 of module raftActionsSolution: 11145380
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 226, col 24 to line 226, col 53 of module raftActionsSolution: 5890126
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 226, col 24 to line 226, col 38 of module raftActionsSolution: 7724476
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 226, col 43 to line 226, col 53 of module raftActionsSolution: 7724477
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 227, col 24 to line 227, col 68 of module raftActionsSolution: 13614604
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 227, col 24 to line 227, col 37 of module raftActionsSolution: 7724477
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 227, col 41 to line 227, col 68 of module raftActionsSolution: 7724478
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 253, col 30 to line 253, col 47 of module raftActionsSolution: 11145383
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 254, col 33 to line 254, col 51 of module raftActionsSolution: 17388231
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 254, col 33 to line 254, col 42 of module raftActionsSolution: 11145383
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 254, col 47 to line 254, col 51 of module raftActionsSolution: 11145383
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 255, col 33 to line 255, col 52 of module raftActionsSolution: 6242848
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 255, col 33 to line 255, col 43 of module raftActionsSolution: 11145384
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 255, col 48 to line 255, col 52 of module raftActionsSolution: 11145384
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 256, col 33 to line 256, col 71 of module raftActionsSolution: 12485697
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 256, col 33 to line 256, col 50 of module raftActionsSolution: 6242849
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 256, col 54 to line 256, col 71 of module raftActionsSolution: 6242849
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 260, col 27 to line 261, col 61 of module raftActionsSolution: 6242849
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 260, col 42 to line 261, col 61 of module raftActionsSolution: 6242849
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 35, col 5 to line 35, col 72 of module raftHelpers: 6242849
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 35, col 17 to line 35, col 72 of module raftHelpers: 6242849
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 20, col 5 to line 23, col 12 of module raftHelpers: 6242849
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 35, col 41 to line 35, col 71 of module raftHelpers: 6242849
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||line 13, col 5 to line 17, col 24 of module raftHelpers: 6242850
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||line 13, col 8 to line 13, col 24 of module raftHelpers: 6242850
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||line 14, col 9 to line 14, col 12 of module raftHelpers: 3960857
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||line 17, col 9 to line 17, col 24 of module raftHelpers: 2281993
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||line 35, col 63 to line 35, col 70 of module raftHelpers: 6242850
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 268, col 33 to line 274, col 55 of module raftActionsSolution: 6242850
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 276, col 27 to line 276, col 73 of module raftActionsSolution: 6242842
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 279, col 27 to line 279, col 45 of module raftActionsSolution: 11145393
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 280, col 27 to line 280, col 46 of module raftActionsSolution: 11145350
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 281, col 27 to line 281, col 66 of module raftActionsSolution: 6242851
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 283, col 30 to line 283, col 62 of module raftActionsSolution: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 287, col 27 to line 287, col 91 of module raftActionsSolution: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 297, col 27 to line 297, col 45 of module raftActionsSolution: 13566933
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 297, col 27 to line 297, col 36 of module raftActionsSolution: 11145397
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 297, col 41 to line 297, col 45 of module raftActionsSolution: 11145397
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 298, col 57 to line 298, col 79 of module raftActionsSolution: 6164449
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 298, col 57 to line 298, col 57 of module raftActionsSolution: 3742913
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 298, col 61 to line 298, col 79 of module raftActionsSolution: 3742913
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 298, col 36 to line 298, col 54 of module raftActionsSolution: 11145398
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 299, col 27 to line 299, col 55 of module raftActionsSolution: 4843072
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 299, col 27 to line 299, col 37 of module raftActionsSolution: 2421536
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 299, col 41 to line 299, col 55 of module raftActionsSolution: 2421536
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 302, col 33 to line 302, col 80 of module raftActionsSolution: 2421536
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 302, col 40 to line 302, col 80 of module raftActionsSolution: 2421536
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 302, col 41 to line 302, col 43 of module raftActionsSolution: 2421536
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 302, col 52 to line 302, col 79 of module raftActionsSolution: 2421527
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 302, col 59 to line 302, col 79 of module raftActionsSolution: 2421536
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||line 302, col 66 to line 302, col 71 of module raftActionsSolution: 2421536
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||line 302, col 74 to line 302, col 78 of module raftActionsSolution: 2421536
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||line 301, col 40 to line 301, col 60 of module raftActionsSolution: 2421536
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||line 301, col 40 to line 301, col 51 of module raftActionsSolution: 2421536
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||line 301, col 53 to line 301, col 59 of module raftActionsSolution: 2421536
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||||line 300, col 42 to line 300, col 166 of module raftActionsSolution: 2421536
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||||line 300, col 77 to line 300, col 166 of module raftActionsSolution: 3631843
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||||line 300, col 56 to line 300, col 74 of module raftActionsSolution: 2421536
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 303, col 33 to line 303, col 110 of module raftActionsSolution: 2421536
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 304, col 27 to line 304, col 73 of module raftActionsSolution: 2421527
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 305, col 11 to line 305, col 124 of module raftActionsSolution: 8664369
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 33, col 41 to line 33, col 41 of module raftSpec: 11145403
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 33, col 44 to line 33, col 44 of module raftSpec: 6242852
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 34, col 14 to line 34, col 44 of module raftSpec: 17377587
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 34, col 14 to line 34, col 20 of module raftSpec: 14261495
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 34, col 24 to line 34, col 44 of module raftSpec: 14261495
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 121, col 8 to line 121, col 31 of module raftActionsSolution: 3116087
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 30, col 15 to line 30, col 53 of module raftHelpers: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 123, col 8 to line 123, col 88 of module raftActionsSolution: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 35, col 35 to line 35, col 35 of module raftSpec: 3116092
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 311, col 8 to line 311, col 31 of module raftActionsSolution: 6232184
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 311, col 8 to line 311, col 14 of module raftActionsSolution: 3116092
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 311, col 18 to line 311, col 31 of module raftActionsSolution: 3116092
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 312, col 14 to line 312, col 23 of module raftActionsSolution: 6232184
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 312, col 14 to line 312, col 14 of module raftActionsSolution: 3116092
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 319, col 20 to line 319, col 80 of module raftActionsSolution: 3116092
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 320, col 20 to line 320, col 76 of module raftActionsSolution: 3116092
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 322, col 20 to line 327, col 42 of module raftActionsSolution: 3116092
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 323, col 22 to line 327, col 42 of module raftActionsSolution: 3116092
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 323, col 25 to line 325, col 64 of module raftActionsSolution: 3116092
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 326, col 27 to line 326, col 80 of module raftActionsSolution: 1598185
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 327, col 27 to line 327, col 42 of module raftActionsSolution: 1517907
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 328, col 14 to line 328, col 29 of module raftActionsSolution: 3116092
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 329, col 14 to line 330, col 61 of module raftActionsSolution: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 331, col 14 to line 331, col 55 of module raftActionsSolution: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 332, col 8 to line 332, col 17 of module raftActionsSolution: 3116087
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 333, col 8 to line 333, col 99 of module raftActionsSolution: 3116087
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 36, col 45 to line 36, col 45 of module raftSpec: 3116092
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 36, col 48 to line 36, col 48 of module raftSpec: 3116092
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 83, col 92 to line 83, col 92 of module raftSpec: 14261511
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2775:0 @!@!@
+  line 82, col 24 to line 83, col 80 of module raftSpec: 7714535:21976046
+@!@!@ENDMSG 2775 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 83, col 21 to line 83, col 79 of module raftSpec: 14261511
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 82, col 33 to line 82, col 54 of module raftSpec: 7714535
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2775:0 @!@!@
+  ||line 45, col 5 to line 45, col 43 of module raftHelpers: 7714535:21976046
+@!@!@ENDMSG 2775 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||line 45, col 31 to line 45, col 41 of module raftHelpers: 57087943
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||line 45, col 13 to line 45, col 27 of module raftHelpers: 7714535
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 82, col 46 to line 82, col 53 of module raftSpec: 7714350
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2774:0 @!@!@
+<LeaderCommitted line 44, col 1 to line 44, col 15 of module raftModelPerf>
+@!@!@ENDMSG 2774 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 45, col 5 to line 45, col 41 of module raftModelPerf: 8209772
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 45, col 23 to line 45, col 41 of module raftModelPerf: 8209772
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 45, col 14 to line 45, col 19 of module raftModelPerf: 8209772
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2775:0 @!@!@
+  ||line 21, col 1 to line 21, col 16 of module MC: 8209772:16419544
+@!@!@ENDMSG 2775 @!@!@
+@!@!@STARTMSG 2774:0 @!@!@
+<MoreThanOneLeaderInv line 94, col 1 to line 94, col 20 of module raftSpec>
+@!@!@ENDMSG 2774 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 95, col 5 to line 99, col 16 of module raftSpec: 8209772
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 96, col 9 to line 99, col 16 of module raftSpec: 131356352
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 96, col 10 to line 98, col 29 of module raftSpec: 131356352
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||line 96, col 13 to line 96, col 43 of module raftSpec: 131356352
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||line 97, col 13 to line 97, col 29 of module raftSpec: 131356352
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||line 98, col 13 to line 98, col 29 of module raftSpec: 32839088
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 99, col 12 to line 99, col 16 of module raftSpec: 8209773
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 95, col 16 to line 95, col 21 of module raftSpec: 8209779
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2774:0 @!@!@
+<LogInv line 120, col 1 to line 120, col 6 of module raftSpec>
+@!@!@ENDMSG 2774 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 121, col 5 to line 123, col 51 of module raftSpec: 8209930
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 122, col 9 to line 123, col 51 of module raftSpec: 73889379
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 122, col 12 to line 122, col 51 of module raftSpec: 73889379
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||line 62, col 5 to line 63, col 48 of module raftHelpers: 73889379
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||line 62, col 8 to line 62, col 29 of module raftHelpers: 73889379
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||line 63, col 8 to line 63, col 48 of module raftHelpers: 57458118
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||line 63, col 32 to line 63, col 48 of module raftHelpers: 31211208
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||line 63, col 17 to line 63, col 28 of module raftHelpers: 57458118
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||line 122, col 26 to line 122, col 37 of module raftSpec: 73889379
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||line 67, col 5 to line 69, col 40 of module raftHelpers: 73889379
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||line 67, col 8 to line 67, col 25 of module raftHelpers: 73889379
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||line 68, col 10 to line 68, col 14 of module raftHelpers: 31271313
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||line 69, col 10 to line 69, col 40 of module raftHelpers: 42618066
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||line 122, col 36 to line 122, col 36 of module raftSpec: 73889379
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||line 122, col 39 to line 122, col 50 of module raftSpec: 73889379
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||line 67, col 5 to line 69, col 40 of module raftHelpers: 73889380
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||line 67, col 8 to line 67, col 25 of module raftHelpers: 73889381
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||line 68, col 10 to line 68, col 14 of module raftHelpers: 31271313
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||line 69, col 10 to line 69, col 40 of module raftHelpers: 42618071
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||line 122, col 49 to line 122, col 49 of module raftSpec: 73889386
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 123, col 12 to line 123, col 51 of module raftSpec: 16431264
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||line 62, col 5 to line 63, col 48 of module raftHelpers: 16431264
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||line 62, col 8 to line 62, col 29 of module raftHelpers: 16431264
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||line 63, col 8 to line 63, col 48 of module raftHelpers: 16431264
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||line 63, col 32 to line 63, col 48 of module raftHelpers: 3260240
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||line 63, col 17 to line 63, col 28 of module raftHelpers: 16431264
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||line 123, col 26 to line 123, col 37 of module raftSpec: 16431264
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||line 67, col 5 to line 69, col 40 of module raftHelpers: 16431264
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||line 67, col 8 to line 67, col 25 of module raftHelpers: 16431264
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||line 68, col 10 to line 68, col 14 of module raftHelpers: 13171024
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||line 69, col 10 to line 69, col 40 of module raftHelpers: 3260240
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||line 123, col 36 to line 123, col 36 of module raftSpec: 16431264
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||line 123, col 39 to line 123, col 50 of module raftSpec: 16431264
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 121, col 17 to line 121, col 23 of module raftSpec: 8209933
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2774:0 @!@!@
+<LeaderCompletenessInv line 112, col 1 to line 112, col 21 of module raftSpec>
+@!@!@ENDMSG 2774 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 113, col 5 to line 116, col 72 of module raftSpec: 8209955
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 114, col 9 to line 116, col 72 of module raftSpec: 24629865
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 114, col 9 to line 114, col 25 of module raftSpec: 24629866
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 115, col 9 to line 116, col 72 of module raftSpec: 8209956
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||line 115, col 28 to line 116, col 72 of module raftSpec: 24629867
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||line 115, col 28 to line 115, col 33 of module raftSpec: 24629868
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||line 116, col 13 to line 116, col 72 of module raftSpec: 16419913
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||line 62, col 5 to line 63, col 48 of module raftHelpers: 16419913
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||||line 62, col 8 to line 62, col 29 of module raftHelpers: 16419914
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||||line 63, col 8 to line 63, col 48 of module raftHelpers: 16419914
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||||line 63, col 32 to line 63, col 48 of module raftHelpers: 6881103
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||||line 63, col 17 to line 63, col 28 of module raftHelpers: 16419914
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||line 116, col 27 to line 116, col 64 of module raftSpec: 16419914
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||||line 50, col 5 to line 59, col 14 of module raftHelpers: 16419914
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||||line 50, col 8 to line 50, col 71 of module raftHelpers: 16419915
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||||||line 50, col 8 to line 50, col 23 of module raftHelpers: 16419915
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||||||line 50, col 28 to line 50, col 71 of module raftHelpers: 14949263
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||||line 54, col 11 to line 56, col 70 of module raftHelpers: 14949263
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||||||line 55, col 13 to line 56, col 70 of module raftHelpers: 24435339
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||||||line 55, col 16 to line 55, col 34 of module raftHelpers: 24435339
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||||||line 56, col 16 to line 56, col 70 of module raftHelpers: 24435339
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||||||||line 56, col 41 to line 56, col 70 of module raftHelpers: 43407491
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||||||||line 56, col 25 to line 56, col 37 of module raftHelpers: 24435339
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||||||line 54, col 24 to line 54, col 36 of module raftHelpers: 14949263
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||||line 57, col 10 to line 57, col 61 of module raftHelpers: 14949263
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||||line 59, col 10 to line 59, col 14 of module raftHelpers: 1470653
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||||line 116, col 47 to line 116, col 47 of module raftSpec: 16419916
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||||line 116, col 50 to line 116, col 63 of module raftSpec: 14949263
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||line 116, col 66 to line 116, col 71 of module raftSpec: 16419916
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||line 115, col 18 to line 115, col 24 of module raftSpec: 8209958
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 113, col 14 to line 113, col 20 of module raftSpec: 8209958
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2774:0 @!@!@
+<LogMatchingInv line 103, col 1 to line 103, col 14 of module raftSpec>
+@!@!@ENDMSG 2774 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 104, col 5 to line 107, col 51 of module raftSpec: 8209959
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 104, col 27 to line 107, col 51 of module raftSpec: 73889631
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 104, col 27 to line 104, col 32 of module raftSpec: 73889631
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 105, col 9 to line 107, col 51 of module raftSpec: 49259754
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||line 106, col 13 to line 107, col 51 of module raftSpec: 67618188
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||line 105, col 18 to line 105, col 49 of module raftSpec: 49259754
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||line 105, col 21 to line 105, col 49 of module raftSpec: 49259754
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||line 42, col 14 to line 42, col 35 of module raftHelpers: 49259754
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||||line 42, col 17 to line 42, col 21 of module raftHelpers: 49259754
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||||line 42, col 28 to line 42, col 28 of module raftHelpers: 11517332
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||||line 42, col 35 to line 42, col 35 of module raftHelpers: 37742425
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||line 105, col 25 to line 105, col 35 of module raftSpec: 49259760
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||line 105, col 38 to line 105, col 48 of module raftSpec: 49259760
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 104, col 17 to line 104, col 23 of module raftSpec: 8209962
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2777:0 @!@!@
+End of statistics (please note that for performance reasons large models
+are best checked with coverage and cost statistics disabled).
+@!@!@ENDMSG 2777 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(59) at 2025-05-25 20:57:55: 56,095,463 states generated (6,962,078 s/min), 9,348,430 distinct states found (1,138,835 ds/min), 529,245 states left on queue.
+@!@!@ENDMSG 2200 @!@!@

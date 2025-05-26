@@ -18,7 +18,7 @@ Restart(i) ==
     /\ nextIndex'      = [nextIndex EXCEPT ![i] = [j \in Server |-> 1]]
     /\ matchIndex'     = [matchIndex EXCEPT ![i] = [j \in Server |-> 0]]
     /\ commitIndex'    = [commitIndex EXCEPT ![i] = 0]
-    /\ UNCHANGED <<messages, currentTerm, votedFor, log, instrumentationVars, hovercraftVars, Servers>>
+    /\ UNCHANGED <<messages, currentTerm, votedFor, log, instrumentationVars>>
 
 \* Modified to restrict Timeout to just Followers
 \* Server i times out and starts a new election. Follower -> Candidate
@@ -32,7 +32,7 @@ Timeout(i) == /\ state[i] \in {Follower} \*, Candidate
               /\ votesResponded' = [votesResponded EXCEPT ![i] = {}]
               /\ votesGranted'   = [votesGranted EXCEPT ![i] = {}]
               /\ voterLog'       = [voterLog EXCEPT ![i] = [j \in {} |-> <<>>]]
-              /\ UNCHANGED <<messages, leaderVars, logVars, instrumentationVars, hovercraftVars, Servers>>
+              /\ UNCHANGED <<messages, leaderVars, logVars, instrumentationVars>>
 
 \* Modified to restrict Leader transitions, bounded by MaxBecomeLeader
 \* Candidate i transitions to leader. Candidate -> Leader
@@ -46,7 +46,7 @@ BecomeLeader(i) ==
     /\ matchIndex' = [matchIndex EXCEPT ![i] =
                          [j \in Server |-> 0]]
     /\ leaderCount' = [leaderCount EXCEPT ![i] = leaderCount[i] + 1]
-    /\ UNCHANGED <<messages, currentTerm, votedFor, candidateVars, logVars, maxc, entryCommitStats, hovercraftVars, Servers>>
+    /\ UNCHANGED <<messages, currentTerm, votedFor, candidateVars, logVars, maxc, entryCommitStats>>
 
 \* Modified up to MaxTerm; Back To Follower
 \* Any RPC with a newer term causes the recipient to advance its term first.
@@ -57,7 +57,7 @@ UpdateTerm(i, j, m) ==
     /\ state'          = [state       EXCEPT ![i] = Follower]
     /\ votedFor'       = [votedFor    EXCEPT ![i] = Nil]
        \* messages is unchanged so m can be processed further.
-    /\ UNCHANGED <<messages, candidateVars, leaderVars, logVars, instrumentationVars, hovercraftVars, Servers>>
+    /\ UNCHANGED <<messages, candidateVars, leaderVars, logVars, instrumentationVars>>
 
 \***************************** REQUEST VOTE **********************************************
 \* Message handlers
@@ -73,7 +73,7 @@ RequestVote(i, j) ==
              mlastLogIndex |-> Len(log[i]),
              msource       |-> i,
              mdest         |-> j])
-    /\ UNCHANGED <<serverVars, candidateVars, leaderVars, logVars, instrumentationVars, hovercraftVars, Servers>>
+    /\ UNCHANGED <<serverVars, candidateVars, leaderVars, logVars, instrumentationVars>>
 
 \* Server i receives a RequestVote request from server j with
 \* m.mterm <= currentTerm[i].
@@ -96,7 +96,7 @@ HandleRequestVoteRequest(i, j, m) ==
                  msource      |-> i,
                  mdest        |-> j],
                  m)
-       /\ UNCHANGED <<state, currentTerm, candidateVars, leaderVars, logVars, instrumentationVars, hovercraftVars, Servers>>
+       /\ UNCHANGED <<state, currentTerm, candidateVars, leaderVars, logVars, instrumentationVars>>
 
 \* Server i receives a RequestVote response from server j with
 \* m.mterm = currentTerm[i].
@@ -114,13 +114,13 @@ HandleRequestVoteResponse(i, j, m) ==
        \/ /\ ~m.mvoteGranted
           /\ UNCHANGED <<votesGranted, voterLog>>
     /\ Discard(m)
-    /\ UNCHANGED <<serverVars, votedFor, leaderVars, logVars, instrumentationVars, hovercraftVars, Servers>>
+    /\ UNCHANGED <<serverVars, votedFor, leaderVars, logVars, instrumentationVars>>
 
 \* Responses with stale terms are ignored.
 DropStaleResponse(i, j, m) ==
     /\ m.mterm < currentTerm[i]
     /\ Discard(m)
-    /\ UNCHANGED <<serverVars, candidateVars, leaderVars, logVars, instrumentationVars, hovercraftVars, Servers>>
+    /\ UNCHANGED <<serverVars, candidateVars, leaderVars, logVars, instrumentationVars>>
 
 \***************************** AppendEntries **********************************************
 
@@ -143,15 +143,17 @@ SwitchClientRequest(i, v) ==
     /\ UNCHANGED <<messages, serverVars, candidateVars, leaderVars, logVars, leaderCount, entryCommitStats, switchIndex, switchSentRecord, unorderedRequest, Servers>>
 
 
-SwitchReplicateClientRequest(i, v) == 
+SwitchClientRequestReplicate(i, v) == 
     /\ \E j \in DOMAIN switchBuffer: j = v \* Check if v is a valid switch request
     /\ ~(\E entry \in switchSentRecord[i]: entry = <<switchBuffer[v].value, switchBuffer[v].term>>)
     /\ switchSentRecord' = [switchSentRecord EXCEPT ![i] = switchSentRecord[i] \cup {<<switchBuffer[v].value, switchBuffer[v].term>>} ]
     /\ unorderedRequest' = [unorderedRequest EXCEPT ![i] = unorderedRequest[i] \cup {switchBuffer[v].value} ]
     /\ UNCHANGED <<messages, serverVars, candidateVars, leaderVars, logVars, instrumentationVars, switchIndex, switchBuffer, Servers>> 
 
+
+
 \* Leader Receives request from switch and appends it to its log. This will trigger Append Entries to be sent
-LeaderAppendRequest(i, v) == 
+LeaderIngressHovercRaftRequest(i, v) == 
     /\ state[i] = Leader
     /\ \E j \in DOMAIN switchBuffer: v = j \* Check if v is a valid switch request
     /\ \E j \in unorderedRequest[i] : v = j \* Check if leader server has already received request v from switch
@@ -212,7 +214,7 @@ AppendEntries(i, j) ==
             IF entryKey \in DOMAIN entryCommitStats /\ ~entryCommitStats[entryKey].committed
             THEN [entryCommitStats EXCEPT ![entryKey].sentCount = @ + 1]
             ELSE entryCommitStats         
-    /\ UNCHANGED <<serverVars, candidateVars, leaderVars, logVars, maxc, leaderCount, hovercraftVars, Servers>>  
+    /\ UNCHANGED <<serverVars, candidateVars, leaderVars, logVars, maxc, leaderCount, hovercraftVars, Servers>> 
 
 \* Server i receives an AppendEntries request from server j with
 \* m.mterm <= currentTerm[i]. This just handles m.entries of length 0 or 1, but
@@ -301,6 +303,7 @@ HandleAppendEntriesRequest(i, j, m) ==
                              /\ unorderedRequest' = [unorderedRequest EXCEPT ![i] = @ \ {m.mentries[1].value}]
                        /\ UNCHANGED <<serverVars, commitIndex, messages>>
        /\ UNCHANGED <<candidateVars, leaderVars, instrumentationVars, switchBuffer, switchIndex, switchSentRecord, Servers>> \* entryCommitStats unchanged on followers
+
 
 \* Server i receives an AppendEntries response from server j with
 \* m.mterm = currentTerm[i].

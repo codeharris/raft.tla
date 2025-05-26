@@ -143,7 +143,7 @@ SwitchClientRequest(i, v) ==
     /\ UNCHANGED <<messages, serverVars, candidateVars, leaderVars, logVars, leaderCount, entryCommitStats, switchIndex, switchSentRecord, unorderedRequest, Servers>>
 
 
-SwitchReplicateClientRequest(i, v) == 
+SwitchClientRequestReplicate(i, v) == 
     /\ \E j \in DOMAIN switchBuffer: j = v \* Check if v is a valid switch request
     /\ ~(\E entry \in switchSentRecord[i]: entry = <<switchBuffer[v].value, switchBuffer[v].term>>)
     /\ switchSentRecord' = [switchSentRecord EXCEPT ![i] = switchSentRecord[i] \cup {<<switchBuffer[v].value, switchBuffer[v].term>>} ]
@@ -151,7 +151,7 @@ SwitchReplicateClientRequest(i, v) ==
     /\ UNCHANGED <<messages, serverVars, candidateVars, leaderVars, logVars, instrumentationVars, switchIndex, switchBuffer, Servers>> 
 
 \* Leader Receives request from switch and appends it to its log. This will trigger Append Entries to be sent
-LeaderAppendRequest(i, v) == 
+LeaderIngressHovercRaftRequest(i, v) == 
     /\ state[i] = Leader
     /\ \E j \in DOMAIN switchBuffer: v = j \* Check if v is a valid switch request
     /\ \E j \in unorderedRequest[i] : v = j \* Check if leader server has already received request v from switch

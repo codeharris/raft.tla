@@ -47,9 +47,9 @@ Next ==
 MyNext == 
            \/ \E v \in Value, s \in Servers: state[s] = Leader /\ SwitchClientRequest(s, v)
            
-           \/ \E v \in DOMAIN switchBuffer, s \in Servers: SwitchReplicateClientRequest(s, v) 
+           \/ \E v \in DOMAIN switchBuffer, s \in Servers: SwitchClientRequestReplicate(s, v) 
            
-           \/ \E s \in Servers, v \in DOMAIN switchBuffer: state[s] = Leader  /\ LeaderAppendRequest(s, v)
+           \/ \E s \in Servers, v \in DOMAIN switchBuffer: state[s] = Leader  /\ LeaderIngressHovercRaftRequest(s, v)
                  
            \/ \E i \in Servers: AdvanceCommitIndex(i)
            

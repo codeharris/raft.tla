@@ -37,10 +37,13 @@ EntryCommitAckQuorumInv ==
     IN \A key \in DOMAIN entryCommitStats :
         LET stats == entryCommitStats[key]
         IN stats.committed => (stats.ackCount >= MinFollowerAcksForMajority)
+        
+
 
 \* fake inv to obtain a trace
 LeaderCommitted ==
-    \E i \in Servers : commitIndex[i] /= 1 \*
+    \E i \in Server : commitIndex[i] /= 1 \*
+    
     
 \*FollowersAppendEntry == \E i,j \in Server : i /= j /\ state[i] = Follower /\ state[j] = Follower /\ Len(log[i]) = 1 /\ Len(log[j]) = 1 \* Verifies that at least one follower appends an entry
 
@@ -57,9 +60,11 @@ MessageSent == \A i,j \in DOMAIN messages:
 \*\*            \/ (i.mtype = AppendEntriesRequest /\ j.mtype = AppendEntriesRequest)
 
 
-AllMessagesNotConsumed == messages = <<>> \/ Cardinality(DOMAIN messages) < 8 \/ \E m \in DOMAIN messages: messages[m] /= 0
-
-
+AllMessagesNotConsumed == messages = <<>> \/ Cardinality(DOMAIN messages) < 8 \/ \E m \in DOMAIN messages: messages[m] /= 0    
+    
+    
+    
+    
 
 \*Modify LeaderCommited == \E i \in Server : commitIndex[i] /= 1
 \*and run with MySpec OR
